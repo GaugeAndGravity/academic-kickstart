@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: YingJie Wang
 
 # Username (this should match the folder name)
 authors:

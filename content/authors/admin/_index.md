@@ -15,7 +15,7 @@ role: Majoring in Theoretical Physics
 # Organizations/Affiliations
 organizations:
 - name: University of Science and Technology of China
-  url: "ustc.edu.cn"
+  url: "https://www.ustc.edu.cn"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include classical Gravity, Quantum Gravity(especially Loop Quantum Gravity), Quantum Field Theory and so on.

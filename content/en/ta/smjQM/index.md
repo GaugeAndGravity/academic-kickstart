@@ -1,5 +1,5 @@
 ---
-title: Quantum Mechanics(2019 Full) 01
+title: Quantum Mechanics(2019 Full)
 summary: A test of a page of QM handout.
 tags:
 - Quantum Mechanics
@@ -18,7 +18,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 url_code: ""
-url_pdf: "content/en/ta/smjQM/gtm267 Quantum Theory for Mathematicians.pdf"
+url_pdf: ""
 url_slides: ""
 url_video: ""
 

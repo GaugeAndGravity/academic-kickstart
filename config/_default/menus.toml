@@ -11,7 +11,7 @@
 [[main]]
 	name = "Courses"
 	url = "#accomplishments"
-	weight = 15
+	weight = 25
 
 #[[main]]
 #  name = "Posts"

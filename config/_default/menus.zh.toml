@@ -11,7 +11,7 @@
 [[main]]
 	name = "部分成绩"
 	url = "#accomplishments"
-	weight = 15
+	weight = 25
 
 #[[main]]
 #  name = "Posts"

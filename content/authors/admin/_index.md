@@ -15,27 +15,22 @@ role: Majoring in Theoretical Physics
 # Organizations/Affiliations
 organizations:
 - name: University of Science and Technology of China
-  url: "ustc.edu.cn"
+  url: "https://www.ustc.edu.cn"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include classical Gravity, Quantum Gravity(especially Loop Quantum Gravity), Quantum Field Theory and so on.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- classical Gravity
+- Quantum Gravity(especially Loop Quantum Gravity)
+- Quantum Field Theory
+- Holography of Gravity
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Undergraduate in Theoretical Physics
+    institution: University of Science and Technology of China
+    year: 2016-2020
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -44,16 +39,22 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:wyj1234@mail.ustc.edu.cn'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
+  link: https://twitter.com/WangYingJie9
+- icon: blogger
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://phywyj.blogspot.com/
+- icon: qq
+  icon_pack: fab
+  link: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1064393607&website=www.oicqzone.com
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv

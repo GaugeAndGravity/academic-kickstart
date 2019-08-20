@@ -46,9 +46,12 @@ social:
 - icon: blogger
   icon_pack: fab
   link: https://phywyj.blogspot.com/
-- icon: qq
+#- icon: qq
+#  icon_pack: fab
+#  link: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1064393607&website=www.oicqzone.com
+- icon: zhihu
   icon_pack: fab
-  link: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1064393607&website=www.oicqzone.com
+  link: https://www.zhihu.com/people/wang-ying-ji-10-64/activities
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
@@ -71,5 +74,5 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a undergraduate students majoring in theoretical physics in USTC. His interests include classical Gravity, Quantum Gravity(especially Loop Quantum Gravity), Quantum Field Theory and so on. Nowadays he is reading the book *Modern Canonical Quantum General Relativity* by T.Thiemann to study LQG.
+Wang YingJie is an undergraduate student majoring in theoretical physics in USTC. His interests include classical Gravity, Quantum Gravity(especially Loop Quantum Gravity), Quantum Field Theory and so on. Nowadays he is reading the book *Modern Canonical Quantum General Relativity* by T.Thiemann to study LQG.
 

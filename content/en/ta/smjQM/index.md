@@ -31,3 +31,5 @@ slides: example
 ---
 
 This is a test page.
+
+{{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}Download my CV{{% /staticref %}}

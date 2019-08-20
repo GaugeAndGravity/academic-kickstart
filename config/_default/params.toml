@@ -18,7 +18,7 @@ description = ""
 sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+twitter = "WangYingJie9"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -59,20 +59,22 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "wyj1234@mail.ustc.edu.cn"
-phone = ""
+phone = "17305699948"
 address = "Building 321 Room 725, University of Science and Technology of China, JinZhai Road No.96, HeFei, AnHui, 230026, China"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+#appointment_url = "https://calendly.com"
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  {icon = "twitter", icon_pack = "fab", name = "WangYingJie9", link = "https://twitter.com/WangYingJie9"},
   {icon = "skype", icon_pack = "fab", name = "Yingjie Wang", link = "skype:echo123?call"},
+  {icon = "qq", icon_pack = "fab", name = "QQ:1064393607", link = "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1064393607&website=www.oicqzone.com"},
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},

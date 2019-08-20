@@ -18,18 +18,22 @@ organizations:
   url: "https://www.ustc.edu.cn"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include classical Gravity, Quantum Gravity(especially Loop Quantum Gravity), Quantum Field Theory and so on.
+bio: 我对引力理论感兴趣，包括经典和量子引力理论，尤其是圈量子引力以及引力的全息性，打算以后从事这些方面的研究工作；同时我也希望能深入学习量子力学，量子场论以及弦论，尤其是它们背后的数学结构。
 
 interests:
-- classical Gravity
-- Quantum Gravity(especially Loop Quantum Gravity)
-- Quantum Field Theory
-- Holography of Gravity
+- 广义相对论
+- 圈量子引力
+- AdS/CFT
+- 量子场论
+- 吉他指弹
+- 羽毛球
+- 书法，尤其是王羲之、赵孟頫
+- 围棋
 
 education:
   courses:
-  - course: Undergraduate in Theoretical Physics
-    institution: University of Science and Technology of China
+  - course: 本科理论物理在读
+    institution: 中国科学技术大学
     year: 2016-2020
 
 # Social/Academic Networking
@@ -69,10 +73,13 @@ email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
 Wang YingJie is an undergraduate student majoring in theoretical physics in USTC. His interests include classical Gravity, Quantum Gravity(especially Loop Quantum Gravity), Quantum Field Theory and so on. Nowadays he is reading the book *Modern Canonical Quantum General Relativity* by T.Thiemann to study LQG.
 
+嗨，我是中国科学技术大学16级的王英洁，我倾向于从事圈量子引力等方面的工作，目前计划读 T.Thiemann 的 《Modern Canonical Quantum General Relativity》来系统学习圈量子引力。
+
+业余时间我弹吉他，打羽毛球，写书法，下围棋，欢迎约球约琴约棋，求轻虐~

@@ -11,9 +11,9 @@
 [zh]
   languageCode = "zh-Hans"
   contentDir = "content/zh"
-  title = "Chinese website title..."
+  title = "王英洁的主页"
   [zh.params]
-    description = "Site description in Chinese..."
+    description = "细推物理须行乐，何为浮名绊此生"
   [[zh.menu.main]]
     name = "Wo"
     url = "#about"

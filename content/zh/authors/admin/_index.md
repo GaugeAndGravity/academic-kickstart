@@ -1,6 +1,6 @@
 ---
 # Display name
-name: YingJie Wang
+name: 王英洁
 
 # Username (this should match the folder name)
 authors:
@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Majoring in Theoretical Physics
+role: 本科理论物理在读
 
 # Organizations/Affiliations
 organizations:
-- name: University of Science and Technology of China
+- name: 中国科学技术大学
   url: "https://www.ustc.edu.cn"
 
 # Short bio (displayed in user profile at end of posts)

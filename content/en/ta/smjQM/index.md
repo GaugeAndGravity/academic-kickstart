@@ -18,7 +18,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 url_code: ""
-url_pdf: "gtm267%20Quantum%20Theory%20for%20Mathematicians.pdf"
+url_pdf: "content/en/ta/smjQM/gtm267 Quantum Theory for Mathematicians.pdf"
 url_slides: ""
 url_video: ""
 

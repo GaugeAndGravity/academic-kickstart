@@ -18,15 +18,15 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[item]]
-  organization = "USTC"
-  organization_url = ""
-  title = "Analysis(B1)"
-  url = ""
-  certificate_url = ""
-  date_start = "2016-09-01"
-  date_end = ""
-  description = "85"
+#[[item]]
+#  organization = "USTC"
+#  organization_url = ""
+#  title = "Analysis(B1)"
+#  url = ""
+#  certificate_url = ""
+#  date_start = "2016-09-01"
+#  date_end = ""
+#  description = "85"
 
 [[item]]
   organization = "USTC"
@@ -41,11 +41,51 @@ date_format = "Jan 2006"
 [[item]]
   organization = "USTC"
   organization_url = ""
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  title = "Analysis(B2)"
   url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  certificate_url = ""
+  date_start = "2017-02-01"
+  date_end = ""
+  description = "99"
+
+[[item]]
+  organization = "USTC"
+  organization_url = ""
+  title = "Group Theory in Physics"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-09-01"
+  date_end = ""
+  description = "98"
+
+[[item]]
+  organization = "USTC"
+  organization_url = ""
+  title = "Quanutm Mechanics(A)"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-09-01"
+  date_end = ""
+  description = "96"
+
+[[item]]
+  organization = "USTC"
+  organization_url = ""
+  title = "Numarical Methods(B)"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-09-01"
+  date_end = ""
+  description = "92"
+
+[[item]]
+  organization = "USTC"
+  organization_url = ""
+  title = "Advanced Quantum Mechanics"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-09-01"
+  date_end = ""
+  description = "95"
 
 +++

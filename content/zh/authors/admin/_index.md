@@ -78,8 +78,6 @@ email: ""
 #- Visitors
 ---
 
-Wang YingJie is an undergraduate student majoring in theoretical physics in USTC. His interests include classical Gravity, Quantum Gravity(especially Loop Quantum Gravity), Quantum Field Theory and so on. Nowadays he is reading the book *Modern Canonical Quantum General Relativity* by T.Thiemann to study LQG.
-
 嗨，我是中国科学技术大学16级的王英洁，我倾向于从事圈量子引力等方面的工作，目前计划读 T.Thiemann 的 《Modern Canonical Quantum General Relativity》来系统学习圈量子引力。
 
 业余时间我弹吉他，打羽毛球，写书法，下围棋，欢迎约球约琴约棋，求轻虐~

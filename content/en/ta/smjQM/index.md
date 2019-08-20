@@ -1,8 +1,8 @@
 ---
-title: Quantum Mechanics(2019 Full)
-summary: An example of using the in-built project page.
+title: Quantum Mechanics(2019 Full) 01
+summary: A test of a page of QM handout.
 tags:
-- Deep Learning
+- Quantum Mechanics
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -13,10 +13,10 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
 url_slides: ""

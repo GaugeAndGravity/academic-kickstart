@@ -32,4 +32,6 @@ slides: example
 
 This is a test page.
 
-{{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}Download my CV{{% /staticref %}}
+Here is some of good texts on QM:
+
+{{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}

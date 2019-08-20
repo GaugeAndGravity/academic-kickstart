@@ -1,12 +1,12 @@
 +++
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
+headless = false  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Courses"
-subtitle = "Here are some of the courses I have taken in USTC."
+subtitle = "Here are some of the courses on math and physics that I have taken in USTC during the last 3 years."
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   title = "Linear Algebra"
   url = ""
   certificate_url = ""
-  date_start = "2016-06-01"
+  date_start = "2016-09-01"
   date_end = ""
   description = "95"
   

@@ -49,24 +49,24 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
 
 
 ### 线性代数B1
-  <font color=gray size=3>大一秋</font>
+  <font color=#404040 size=3>大一秋</font>
   **95**
 
 ### 数学分析B2
-  <font color=gray size=3>大一春</font>
+  <font color=#404040 size=3>大一春</font>
   **99**
 
 ### 物理学中的群论
-  <font color=gray size=3>大三秋</font> **98**
+  <font color=#404040 size=3>大三秋</font> **98**
 
 ### 量子力学A
-  <font color=gray size=3>大三秋</font> **96**
+  <font color=#404040 size=3>大三秋</font> **96**
 
 ### 计算方法B
-  <font color=gray size=3>大三秋</font> **92**
+  <font color=#404040 size=3>大三秋</font> **92**
 
 ### 高等量子力学
-  <font color=gray size=3>大三秋</font> **95**
+  <font color=#404040 size=3>大三秋</font> **95**
 
 ### 拓扑学
-  <font color=gray size=3>大三秋</font> **88**
+  <font color=#404040 size=3>大三秋</font> **88**

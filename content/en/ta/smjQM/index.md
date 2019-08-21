@@ -1,6 +1,6 @@
 ---
-title: Quantum Mechanics(2019 Full)
-summary: A test of a page of QM handout.
+title: 2019 Full<br />Quantum Mechanics(A)
+summary: Pro. Shi MingJun
 tags:
 - Quantum Mechanics
 date: "2016-04-27T00:00:00Z"

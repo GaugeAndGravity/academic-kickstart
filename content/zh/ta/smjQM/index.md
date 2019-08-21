@@ -34,7 +34,7 @@ slides: example
 
 测试:
 
-$$\gdef\dd{\,\mathrm{d}} \mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
+$$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
 
 ## 量子力学的一些参考材料
 

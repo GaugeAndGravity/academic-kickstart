@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/218649db-6540-4d50-ad91-42377a3f561a/deploy-status)](https://app.netlify.com/sites/nifty-hoover-6658fe/deploys)
+
 # [Academic Kickstart](https://sourcethemes.com/academic/)
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).

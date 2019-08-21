@@ -9,7 +9,7 @@ date: "2016-04-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: by Wang YingJie
   focal_point: Smart
 
 links:
@@ -30,8 +30,13 @@ url_video: ""
 slides: example
 ---
 
-This is a test page.
+{{% toc %}}
 
-Here is some of good texts on QM:
+test math
+$$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
 
-{{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}
+This is a TA homepage for Quantum Mechanics(A) 2019Full. **Notice of exercise lessons, exams, etc. and solutions to the exercise will be published here.**
+
+## Some texts for QM
+
+- {{% staticref "files/GTM267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}

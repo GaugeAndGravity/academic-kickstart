@@ -1,5 +1,5 @@
 ---
-title: 2019 Full<br />Quantum Mechanics(A)
+title: 2019 Full Quantum Mechanics(A)
 summary: Pro. Shi MingJun
 tags:
 - Quantum Mechanics

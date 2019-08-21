@@ -11,7 +11,7 @@
 [zh]
   languageCode = "zh-Hans"
   contentDir = "content/zh"
-  title = "王英洁的主页"
+  title = "薛定谔的大喵"
   [zh.params]
     description = "细推物理须行乐，何为浮名绊此生"
   [[zh.menu.main]]

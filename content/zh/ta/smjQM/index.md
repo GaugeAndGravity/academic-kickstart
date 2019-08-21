@@ -1,5 +1,5 @@
 ---
-title: 量子力学A(2019 Full)
+title: 量子力学A<br />(2019 Full)
 summary: 石名俊班
 tags:
 - Quantum Mechanics

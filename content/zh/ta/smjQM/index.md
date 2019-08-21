@@ -32,10 +32,10 @@ slides: example
 
 {{% toc %}}
 
-测试。
+测试:
 
-$f(x)$
+$$\gdef\dd{\,\mathrm{d}} \mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
 
-## 量子力学的一些参考材料：
+## 量子力学的一些参考材料
 
 - {{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}

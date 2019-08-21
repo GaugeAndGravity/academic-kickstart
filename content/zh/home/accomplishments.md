@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   title = "线性代数B1 95"
   url = ""
   certificate_url = ""
-  date_start = "2016 秋"
+  date_start = "2016-09-01"
   date_end = ""
   description = ""
   

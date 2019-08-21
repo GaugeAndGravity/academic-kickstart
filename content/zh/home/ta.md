@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
 title = "助教"
-subtitle = "这里是助教页面"
+subtitle = "这里是我的助教页面"
 
 [content]
   # Page type to display. E.g. project.

@@ -34,6 +34,6 @@ slides: example
 
 $f(x)$
 
-量子力学的一些很好的材料：
+# 量子力学的一些很好的材料：
 
-{{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}
+- {{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}

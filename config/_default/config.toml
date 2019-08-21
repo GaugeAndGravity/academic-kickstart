@@ -16,7 +16,7 @@ baseurl = "https://phy-yingjie.wang/"
 copyright = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-146123498-1"
 
 ############################
 ## Advanced options below ##

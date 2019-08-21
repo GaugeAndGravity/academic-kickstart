@@ -38,4 +38,4 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 
 ## 量子力学的一些参考材料
 
-- {{% staticref "files/gtm267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}
+- {{% staticref "files/GTM267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}

@@ -78,8 +78,10 @@ email: ""
 #- Visitors
 ---
 
-嗨，我是中国科学技术大学16级的王英洁，各种网名一直用**薛定谔的大喵**，可以叫我大喵就好:smile: 
+嗨，我是科大16级的王英洁，各种网名一直用**薛定谔的大喵**，可以叫我大喵就好:smile: 
 
-我倾向于从事圈量子引力等方面的工作，目前计划通读 T.Thiemann 的 《Modern Canonical Quantum General Relativity》来系统学习圈量子引力。
+关于理论物理，我倾向于从事圈量子引力等方面的工作，目前计划通读 T.Thiemann 的 《Modern Canonical Quantum General Relativity》来系统学习圈量子引力。
 
-业余时间我弹吉他，打羽毛球，写书法，下围棋，欢迎约球约琴约棋，求轻虐~
+业余时间我喜欢弹吉他，打羽毛球，写书法，下围棋，欢迎约球约琴约棋，求轻虐~
+
+<iframe src="//player.bilibili.com/player.html?aid=13971872" style="width:100%;height:480px" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>

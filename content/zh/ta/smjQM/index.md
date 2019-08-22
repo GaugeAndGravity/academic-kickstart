@@ -36,11 +36,8 @@ slides: example
 
 {{% toc %}}
 
-测试:
-
 $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
 
-这里是2019年秋季石名俊老师班量子力学A的助教主页。**习题课信息、习题参考答案、通知公告都会在这里发布。**
 
 ## 量子力学的一些参考材料
 

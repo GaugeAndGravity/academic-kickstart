@@ -30,12 +30,13 @@ url_video: ""
 slides: example
 ---
 
+{{% alert note %}}
+This is a TA homepage for Quantum Mechanics(A) 2019Full. **Notice of exercise lessons, exams, etc. and solutions to the exercise will be published here.**
+{{% /alert %}}
+
 {{% toc %}}
 
-test math
 $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
-
-This is a TA homepage for Quantum Mechanics(A) 2019Full. **Notice of exercise lessons, exams, etc. and solutions to the exercise will be published here.**
 
 ## Some texts for QM
 

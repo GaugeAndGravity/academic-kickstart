@@ -84,4 +84,4 @@ email: ""
 
 业余时间我喜欢弹吉他，打羽毛球，写书法，下围棋，欢迎约球约琴约棋，求轻虐~
 
-<iframe src="//player.bilibili.com/player.html?aid=13971872" style="width:100%;height:480px" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe>
+<!--- <iframe src="//player.bilibili.com/player.html?aid=13971872" style="width:100%;height:480px" scrolling="no" border="0" frameborder="no" framespacing="0"></iframe> --->

@@ -73,11 +73,11 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
 
 <table>
     <tr>
-        <td>row 1, cell 1</td>
+        <td rowspan="2">row 1, cell 1</td>
         <td>row 1, cell 2</td>
     </tr>
     <tr>
-        <td colspan="2">row 2, cell 1</td>
+        <td>row 2, cell 1</td>
     </tr>
 </table>
 

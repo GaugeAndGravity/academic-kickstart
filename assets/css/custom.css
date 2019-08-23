@@ -55,15 +55,13 @@ th:last-child {
 }
 
 tr:last-child td:first-child {
-
+	border-left:#C8B9AE solid 1px;
 	border-radius: 0 0 0 9px;
-
 }
 
 tr:last-child td:last-child {
-
+	border-right:#C8B9AE solid 1px;
 	border-radius: 0 0 9px 0;
-
 }
 
 /* tbody tr:hover {

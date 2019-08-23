@@ -5,7 +5,7 @@
 
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 35  # Order that this section will appear.
 
 title = "本科部分成绩"
@@ -137,11 +137,4 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
   </tbody>
 </table>
 
-<div style="width:300px">
-  <div style="width:100px;background-color:red">
-    线性代数
-  </div>
-  <div style="width:200px;background:blue;text-align:center;border-radius: 25px">
-    95
-  </div>
-</div>
+<div style="width:300px"><div style="width:100px;background-color:red">线性代数</div><div style="width:200px;background:blue;text-align:center;border-radius: 15px;height:40px">95</div></div>

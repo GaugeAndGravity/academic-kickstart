@@ -71,16 +71,6 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
 ### 拓扑学
   <font color=#606060 size=3>大三秋</font> **88**
 
-<table>
-    <tr>
-        <td rowspan="2" valign="middle">row 1, cell 1</td>
-        <td>row 1, cell 2</td>
-    </tr>
-    <tr>
-        <td>row 2, cell 1</td>
-    </tr>
-</table>
-
 |类型|课程名称|选课学期|成绩|
 |:-:|:-:|:-:|:-:|
 |数学课<br>(非数院)|线性代数|大一秋|95|

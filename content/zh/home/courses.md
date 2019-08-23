@@ -137,4 +137,4 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
   </tbody>
 </table>
 
-<div style="width:300px"><div style="width:100px;background-color:red">线性代数</div><div style="width:200px;background:blue;text-align:center;border-radius: 15px;height:40px">95</div></div>
+<div style="width:200px;box-sizing: border-box;height:40px"><div style="width:100px;background-color:red;box-sizing: border-box">线性代数</div><div style="width:100px;background:blue;text-align:center;border-radius: 15px;height:40px;box-sizing: border-box">95</div></div>

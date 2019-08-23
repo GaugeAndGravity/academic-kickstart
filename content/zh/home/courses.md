@@ -77,7 +77,11 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
         <td>row 1, cell 2</td>
     </tr>
     <tr>
-        <td>row 2, cell 1</td>
-        <td>row 2, cell 2</td>
+        <td colspan="2">row 2, cell 1</td>
     </tr>
 </table>
+
+|类型|课程名称|选课学期|成绩|
+|:-:|:-:|:-:|:-:|
+|数学|线性代数|大一秋|95|
+|^|数学分析|大一春|99|

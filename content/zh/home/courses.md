@@ -48,7 +48,7 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
 +++
 
 
-<font size=5>**线性代数B1**</font>
+<!-- <font size=5>**线性代数B1**</font>
   <font color=#606060 size=3>大一秋</font>
   **95**
 
@@ -69,9 +69,9 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
   <font color=#606060 size=3>大三秋</font> **95**
 
 ### 拓扑学
-  <font color=#606060 size=3>大三秋</font> **88**
+  <font color=#606060 size=3>大三秋</font> **88** -->
 
-|类型|课程名称|选课学期|成绩|
+<!-- |类型|课程名称|选课学期|成绩|
 |:-:|:-:|:-:|:-:|
 |数学课<br>(非数院)|线性代数|大一秋|95|
 |^|数学分析|大一春|99|
@@ -80,7 +80,7 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
 |数学课<br>(数院)|拓扑学|大三春|88|
 |理论物理|广义相对论与宇宙学|大二春|85|
 |^|量子力学A|大三秋|96|
-|^|高等量子力学|大三秋|95|
+|^|高等量子力学|大三秋|95| -->
 
 <table>
   <thead>
@@ -93,7 +93,7 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center; background:blue" rowspan="4">数学课<br>(非数院)</td>
+      <td style="text-align:center" rowspan="5">数学课</td>
       <td style="text-align:center">线性代数</td>
       <td style="text-align:center">大一秋</td>
       <td style="text-align:center">95</td>
@@ -114,8 +114,7 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
       <td style="text-align:center">92</td>
     </tr>
     <tr>
-      <td style="text-align:center">数学课<br>(数院)</td>
-      <td style="text-align:center">拓扑学</td>
+      <td style="text-align:center">拓扑学(数院)</td>
       <td style="text-align:center">大三春</td>
       <td style="text-align:center">88</td>
     </tr>
@@ -137,3 +136,12 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
     </tr>
   </tbody>
 </table>
+
+<div style="width:300px">
+  <div style="width:100px;background-color:red">
+    线性代数
+  </div>
+  <div style="width:200px;background:blue">
+    95
+  </div>
+</div>

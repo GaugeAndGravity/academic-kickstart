@@ -1,4 +1,6 @@
 table {
+	border-left:#C8B9AE solid 1px;
+    border-top:#C8B9AE solid 1px;
 	border-collapse: collapse;
 	font-family: Futura, Arial, sans-serif;
 }
@@ -60,5 +62,13 @@ tr:last-child td:first-child {
 tr:last-child td:last-child {
 
 	border-radius: 0 0 9px 0;
+
+}
+
+tbody tr:hover {
+ 
+	background: linear-gradient(#fff,#aaa);
+
+	font-size: 17px;
 
 }

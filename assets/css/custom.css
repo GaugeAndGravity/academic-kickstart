@@ -21,7 +21,7 @@ th,td {
 }
 
 th {
-
+	width: 100%;
 	background: #555 nonerepeat scroll 0 0;
 
   /* border: 1px solid #777; */

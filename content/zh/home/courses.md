@@ -93,7 +93,7 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:center" rowspan="5">数学课</td>
+      <td style="text-align:center;border-right:#C8B9AE solid 1px" rowspan="5">数学课</td>
       <td style="text-align:center">线性代数</td>
       <td style="text-align:center">大一秋</td>
       <td style="text-align:center">95</td>
@@ -119,7 +119,7 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
       <td style="text-align:center">88</td>
     </tr>
     <tr>
-      <td style="text-align:center" rowspan="3">理论物理</td>
+      <td style="text-align:center;border-right:#C8B9AE solid 1px;" rowspan="3">理论物理</td>
       <td style="text-align:center">广义相对论与宇宙学</td>
       <td style="text-align:center">大二春</td>
       <td style="text-align:center">85</td>
@@ -141,7 +141,7 @@ subtitle = "这里是我在科大过去三年中部分数学和物理课程的�
   <div style="width:100px;background-color:red">
     线性代数
   </div>
-  <div style="width:200px;background:blue">
+  <div style="width:200px;background:blue;text-align:center;border-radius: 25px">
     95
   </div>
 </div>

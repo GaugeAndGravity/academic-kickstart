@@ -56,7 +56,8 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2018-09-01"
   date_end = ""
-  description = ""
+  description = "98"
+  233
 
 [[item]]
   organization = "USTC"

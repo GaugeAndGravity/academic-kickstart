@@ -78,7 +78,7 @@ email: ""
 #- Visitors
 ---
 
-嗨，我是科大16级的王英洁，各种网名一直用**薛定谔的大喵**，可以叫我大喵就好:smile: 
+嗨，我是科大16级的王英洁，理工宅男一枚，各种网名一直用**薛定谔的大喵**，可以叫我大喵就好:smile: 
 
 关于理论物理，我倾向于从事圈量子引力等方面的工作，目前计划通读 T.Thiemann 的 《Modern Canonical Quantum General Relativity》来系统学习圈量子引力。
 

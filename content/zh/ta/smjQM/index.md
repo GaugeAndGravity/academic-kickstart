@@ -43,31 +43,48 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 
 ## 联系方式
 
-<div style="width:200px;box-sizing: border-box;height:40px">
+<!-- <div style="width:200px;box-sizing: border-box;height:40px">
   <div style="width:100px;box-sizing: border-box;height:40px">
     老师
   </div>
   <div style="width:100px;box-sizing: border-box;height:40px">
     助教
   </div>
-</div>
+</div> -->
 
-<div  class = "someclass"  id = "someid"  markdown = "1" style="width:200px">
+<!-- <div  class = "someclass"  id = "someid"  markdown = "1" style="width:200px">
   <div  class = "someclass"  id = "someid"  markdown = "1" style="width:100px">
     233
   </div>
   <div  class = "someclass"  id = "someid"  markdown = "1" style="width:100px">
     666
   </div>
-</div>
+</div> -->
 
-<div style="border-radius: 15px" markdown="1">
-- 石名俊老师：
-  - [shmj@ustc.edu.cn](mailto:shmj@ustc.edu.cn)
-- 助教
-  - 何东铭
-  - 王英洁
-  - 徐九赐
+<div style="border-radius: 15px;background:#0000ff30" markdown="1">
+  <ul>
+    <li>石名俊老师：
+      <ul>
+        <li>
+          邮箱：<a href="mailto:shmj@ustc.edu.cn"> shmj@ustc.edu.cn </a>
+        </li>
+      </ul>
+  </li>
+  <li>
+    助教
+      <ul>
+        <li>
+          徐九赐
+        </li>
+        <li>
+          何东铭
+        </li>
+        <li>
+          王英洁
+        </li>
+      </ul>
+    </li>
+  </ul>
 </div>
 
 ## 量子力学的一些参考材料

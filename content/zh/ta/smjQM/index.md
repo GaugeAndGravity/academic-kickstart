@@ -23,6 +23,7 @@ url_slides: ""
 url_video: ""
 
 share: false
+profile: false
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -51,6 +52,21 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
   </div>
 </div>
 
+<div  class = “someclass”  id = “someid”  markdown = “1” style="width:200px">
+  <div  class = “someclass”  id = “someid”  markdown = “1” style="width:100px">
+    233
+  </div>
+  <div  class = “someclass”  id = “someid”  markdown = “1” style="width:100px">
+    666
+  </div>
+</div>
+
+- 石名俊老师：
+  - [shmj@ustc.edu.cn](mailto:shmj@ustc.edu.cn)
+- 助教
+  - 何东铭
+  - 王英洁
+  - 徐九赐
 
 ## 量子力学的一些参考材料
 

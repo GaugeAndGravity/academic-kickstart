@@ -61,7 +61,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
   </div>
 </div> -->
 
-<div style="border-radius: 15px;background:#0000ff30" markdown="1">
+<div style="border-radius: 15px;background:#0000ff30">
   <ul>
     <li>石名俊老师：
       <ul>
@@ -69,20 +69,23 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
           邮箱：<a href="mailto:shmj@ustc.edu.cn"> shmj@ustc.edu.cn </a>
         </li>
       </ul>
-  </li>
-  <li>
-    助教
+    </li>
+    <!-- <li>
+      助教 徐九赐
       <ul>
         <li>
-          徐九赐
-        </li>
-        <li>
-          何东铭
-        </li>
-        <li>
-          王英洁
+          邮箱
         </li>
       </ul>
+    </li>
+    <li>
+      助教 何东铭
+    </li>
+    <li>
+      助教 王英洁
+    </li> -->
+    <li>
+      课程群：暂无
     </li>
   </ul>
 </div>

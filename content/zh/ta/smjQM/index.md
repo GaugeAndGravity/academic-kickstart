@@ -3,7 +3,7 @@ title: 2019秋 量子力学A
 summary: 石名俊班
 tags:
 - Quantum Mechanics
-date: {{ .Date }}
+date: "2019-08-21T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

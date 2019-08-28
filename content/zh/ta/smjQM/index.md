@@ -3,7 +3,7 @@ title: 2019秋 量子力学A
 summary: 石名俊班
 tags:
 - Quantum Mechanics
-date: "2016-04-27T00:00:00Z"
+date: {{ .Date }}
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -39,6 +39,17 @@ slides: ""
 {{% toc %}}
 
 $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
+
+## 联系方式
+
+<div style="width:200px;box-sizing: border-box;height:40px">
+  <div style="width:100px;box-sizing: border-box;height:40px">
+    老师
+  </div>
+  <div style="width:100px;box-sizing: border-box;height:40px">
+    助教
+  </div>
+</div>
 
 
 ## 量子力学的一些参考材料

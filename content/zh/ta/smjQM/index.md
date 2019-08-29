@@ -95,11 +95,11 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 - {{% staticref "files/Modern Quantum Mechanics and solutions for the ex.pdf" "newtab" %}}Modern Quantum Mechanics and solutions, Sakurai, revised edition{{% /staticref %}}
   Sakurai的Modern Quantum Mechanics，首选的参考。
 - {{% staticref "files/现代量子力学-第2版-樱井纯-研究生用-中文版-高清.pdf" "newtab" %}}现代量子力学-樱井纯-第2版{{% /staticref %}}
-  Sakurai中文版，世界图书出版公司，据说翻译质量还行（存疑）。
+  Sakurai中文版，世界图书出版公司，据说翻译质量还行（没看过，存疑）。
 - {{% staticref "files/量子力学-第一卷-塔诺季-高清版.pdf" "newtab" %}}量子力学-第一卷-塔诺季-高清版{{% /staticref %}}
   科恩-塔诺季(Cohen-Tannoudji)第一卷，高等教育出版社中译版，
 - {{% staticref "files/量子力学-第二卷-塔诺季-高清版.pdf" "newtab" %}}量子力学-第二卷-塔诺季-高清版{{% /staticref %}}
   同上，第二卷。
 - {{% staticref "files/GTM267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}
   数学系用书，想了解课程所讲内容如何更严谨地表述，无穷维到底带来什么不同，可以读一读这本书。
-- 最后，曾见打（曾谨言见一个打一个）（逃
+- 最后，**曾见打**（曾谨言见一个打一个）（逃

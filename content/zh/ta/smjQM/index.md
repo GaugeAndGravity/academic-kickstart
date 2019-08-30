@@ -85,7 +85,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
       助教 王英洁
     </li> -->
     <li>
-      课程群：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=9db075626b68e9f1e6254860c11e1224a1985d89d31e3c10d44cb6093151efb5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Quantum Mechanics A 2019 falll" title="Quantum Mechanics A 2019 falll" style="display:inline"></a>
+      课程群：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=9db075626b68e9f1e6254860c11e1224a1985d89d31e3c10d44cb6093151efb5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Quantum Mechanics A 2019 falll" title="Quantum Mechanics A 2019 falll" style="display:inline;margin-top: 0rem; margin-bottom: 0rem"></a>
     </li>
   </ul>
 </div>

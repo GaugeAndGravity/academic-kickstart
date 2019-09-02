@@ -37,6 +37,9 @@ slides: ""
   .article-container{
     margin-left: 12%;
   }
+  h2, h3, h4, h5, h6{
+    font-weight: 600;
+  }
 </style>
 
 {{% alert note %}}

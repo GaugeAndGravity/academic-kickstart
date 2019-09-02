@@ -83,4 +83,5 @@ tr:last-child td:last-child {
 .fixedtoc{
 	position: fixed;
 	right: 1%;
+	top: 30%;
 }

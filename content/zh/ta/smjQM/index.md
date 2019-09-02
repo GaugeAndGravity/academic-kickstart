@@ -106,7 +106,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 
 ## 课程讲义
 
-### 旧讲义
+### 旧讲义（2018）
 
 - {{% staticref "files/Chapter1.pdf" "newtab" %}}Chapter1{{% /staticref %}}
 - {{% staticref "files/Chapter2-1.pdf" "newtab" %}}Chapter2-1{{% /staticref %}}
@@ -124,3 +124,15 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 - {{% staticref "files/Chapter7-5.pdf" "newtab" %}}Chapter7-5{{% /staticref %}}
 - {{% staticref "files/Chapter7-6.pdf" "newtab" %}}Chapter7-6{{% /staticref %}}
 - {{% staticref "files/Chapter8.pdf" "newtab" %}}Chapter8{{% /staticref %}}
+
+### 新讲义（2019）
+
+待更新
+
+## 作业题
+
+待更新
+
+## 习题课材料
+
+待更新

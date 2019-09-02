@@ -79,4 +79,8 @@ tr:last-child td:last-child {
 .card-simple:last-of-type {
 	margin-bottom: 0;
 }
-  
+
+.fixedtoc{
+	position: fixed;
+	right: 1%;
+}

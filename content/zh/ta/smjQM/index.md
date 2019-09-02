@@ -37,7 +37,7 @@ slides: ""
 这里是2019年秋季石名俊老师班量子力学A的助教主页。**习题课信息、习题参考答案、通知公告都会在这里发布。**
 {{% /alert %}}
 
-{{% toc %}}
+<div position=fixed right=1%>{{% toc %}}</div>
 
 $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
 

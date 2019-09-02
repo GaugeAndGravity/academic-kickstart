@@ -35,7 +35,7 @@ slides: ""
 
 <style>
   .article-container{
-    margin-left: 30%;
+    margin-left: 10%;
   }
 </style>
 

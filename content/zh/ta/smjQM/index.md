@@ -108,3 +108,19 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 
 ### 旧讲义
 
+- {{% staticref "files/Chapter1.pdf" "newtab" %}}Chapter1{{% /staticref %}}
+- {{% staticref "files/Chapter2-1.pdf" "newtab" %}}Chapter2-1{{% /staticref %}}
+- {{% staticref "files/Chapter2-2.pdf" "newtab" %}}Chapter2-2{{% /staticref %}}
+- {{% staticref "files/Chapter3.pdf" "newtab" %}}Chapter3{{% /staticref %}}
+- {{% staticref "files/Chapter4(未完待续).pdf" "newtab" %}}Chapter4{{% /staticref %}}
+- {{% staticref "files/Chapter5-1.pdf" "newtab" %}}Chapter5-1{{% /staticref %}}
+- {{% staticref "files/Chapter5-2.pdf" "newtab" %}}Chapter5-2{{% /staticref %}}
+- {{% staticref "files/Chapter5-3.pdf" "newtab" %}}Chapter5-3{{% /staticref %}}
+- {{% staticref "files/Chapter6.pdf" "newtab" %}}Chapter6{{% /staticref %}}
+- {{% staticref "files/Chapter7-1.pdf" "newtab" %}}Chapter7-1{{% /staticref %}}
+- {{% staticref "files/Chapter7-2.pdf" "newtab" %}}Chapter7-2{{% /staticref %}}
+- {{% staticref "files/Chapter7-3.pdf" "newtab" %}}Chapter7-3{{% /staticref %}}
+- {{% staticref "files/Chapter7-4.pdf" "newtab" %}}Chapter7-4{{% /staticref %}}
+- {{% staticref "files/Chapter7-5.pdf" "newtab" %}}Chapter7-5{{% /staticref %}}
+- {{% staticref "files/Chapter7-6.pdf" "newtab" %}}Chapter7-6{{% /staticref %}}
+- {{% staticref "files/Chapter8.pdf" "newtab" %}}Chapter8{{% /staticref %}}

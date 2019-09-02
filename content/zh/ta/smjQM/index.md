@@ -33,6 +33,12 @@ profile: false
 slides: ""
 ---
 
+<style>
+  .article-container{
+    margin-left: 30%;
+  }
+</style>
+
 {{% alert note %}}
 这里是2019年秋季石名俊老师班量子力学A的助教主页。**习题课信息、习题参考答案、通知公告都会在这里发布。**
 {{% /alert %}}

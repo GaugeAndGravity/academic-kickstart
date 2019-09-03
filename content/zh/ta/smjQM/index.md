@@ -104,6 +104,10 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 
 ## 量子力学的一些参考材料
 
+{{% alert warning %}}
+本页面上的pdf文件使用git lfs管理，目前似乎下载访问有些问题。有下载不了的文件，可以在QQ群或者石名俊老师的主页<a href="staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>访问下载。
+{{% /alert %}}
+
 - {{% staticref "files/Modern Quantum Mechanics and solutions for the ex.pdf" "newtab" %}}Modern Quantum Mechanics and solutions, Sakurai, revised edition{{% /staticref %}}
   Sakurai的Modern Quantum Mechanics，首选的参考。
 - {{% staticref "files/现代量子力学-第2版-樱井纯-研究生用-中文版-高清.pdf" "newtab" %}}现代量子力学-樱井纯-第2版{{% /staticref %}}

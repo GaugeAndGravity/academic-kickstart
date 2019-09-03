@@ -105,7 +105,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 ## 量子力学的一些参考材料
 
 {{% alert note %}}
-本页面上的pdf文件使用git lfs管理，目前大文件的下载访问似乎有些问题。虽然不是无法访问，但是进度条邻近下载完成时会慢到令人发指……这些文件也可以在QQ群或者石名俊老师的主页<a href="staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>访问下载。
+本页面上的pdf文件使用git lfs管理，目前大文件的下载访问似乎有些问题。不是无法访问，但是进度条邻近下载完成时会慢到令人发指……这些文件也可以在QQ群或者石名俊老师的主页<a href="staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>访问下载。
 （但是石老师主页的更新会佛系一些……
 {{% /alert %}}
 

@@ -118,6 +118,8 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
   同上，第二卷。
 - {{% staticref "files/GTM267 Quantum Theory for Mathematicians.pdf" "newtab" %}}GTM267 Quantum Theory for Mathematicians{{% /staticref %}}
   数学系用书，想了解课程所讲内容如何更严谨地表述，无穷维到底带来什么不同，可以读一读这本书。
+- {{% staticref "files/量子力学原理【狄拉克着,陈咸亨译】.pdf" "newtab" %}}量子力学原理【狄拉克着,陈咸亨译】{{% /staticref %}}
+  狄拉克书，我没看过……
 <!-- - 最后，**曾见打**（曾谨言见一个打一个）（逃 -->
 
 ## 课程讲义

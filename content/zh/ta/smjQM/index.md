@@ -122,6 +122,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 - {{% staticref "files/量子力学原理【狄拉克着,陈咸亨译】.pdf" "newtab" %}}量子力学原理【狄拉克着,陈咸亨译】{{% /staticref %}}
   狄拉克书，我没看过……
 <!-- - 最后，**曾见打**（曾谨言见一个打一个）（逃 -->
+- {{% staticref "files/David-Albert-Quantum-Mechanics-Experience-1992.pdf" "newtab" %}}Quantum Mechanics Experience-David Albert{{% /staticref %}} 石名俊老师第二节课提到的书。
 
 ## 课程讲义
 

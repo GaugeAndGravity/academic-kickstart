@@ -97,7 +97,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
       课程群：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=9db075626b68e9f1e6254860c11e1224a1985d89d31e3c10d44cb6093151efb5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Quantum Mechanics A 2019 falll" title="Quantum Mechanics A 2019 falll" style="display:inline;margin-top: 0rem; margin-bottom: 0rem"></a>
     </li>
     <li>
-      石老师主页：<a href="staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>
+      石老师主页：<a href="https://staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>
     </li>
   </ul>
 </div>
@@ -105,7 +105,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 ## 量子力学的一些参考材料
 
 {{% alert note %}}
-本页面上的pdf文件使用git lfs管理，目前大文件的下载访问似乎有些问题。不是无法访问，但是进度条邻近下载完成时会慢到令人发指……这些文件也可以在QQ群或者石名俊老师的主页<a href="staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>访问下载。
+本页面上的pdf文件使用git lfs管理，目前大文件的下载访问似乎有些问题。不是无法访问，但是进度条邻近下载完成时会慢到令人发指……这些文件也可以在QQ群或者石名俊老师的主页<a href="https://staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>访问下载。
 （但是石老师主页的更新会佛系一些……
 {{% /alert %}}
 

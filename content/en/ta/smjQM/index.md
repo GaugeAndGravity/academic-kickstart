@@ -133,10 +133,10 @@ The sever of Prof. Shi has some unknown error, so I can't upload any files to th
 - {{% staticref "files/2019/Chapter2-1.pdf" "newtab" %}}Chapter2-1{{% /staticref %}}
 - {{% staticref "files/2019/Chapter2-2.pdf" "newtab" %}}Chapter2-2{{% /staticref %}}
 
-## 作业题
+## Exercises
 
 - {{% staticref "files/2019/work1.pdf" "newtab" %}}homework1{{% /staticref %}}
 
-## 习题课材料
+## Material of the Exercise lessons
 
 Coming soon...

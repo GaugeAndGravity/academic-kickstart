@@ -43,6 +43,10 @@ slides: example
 This is a TA homepage for Quantum Mechanics(A) 2019Full. **Notice of exercise lessons, exams, etc. and solutions to the exercise will be published here.**
 {{% /alert %}}
 
+{{% alert note %}}
+**For the time of the first exercise lesson, please vote in the QQ group.**
+{{% /alert %}}
+
 <div class="fixedtoc">{{% toc %}}</div>
 
 $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
@@ -80,6 +84,10 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
     </li>
   </ul>
 </div>
+
+{{% alert note %}}
+The sever of Prof. Shi has some unknown error, so I can't upload any files to the server of the website of Prof. Shi now. So the website of Prof. Shi won't be used any more until the error can be fixed.
+{{% /alert %}}
 
 ## Some reference for QM
 
@@ -121,11 +129,13 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 
 ### New(2019)
 
-Coming soon...
+- {{% staticref "files/2019/Chapter1.pdf" "newtab" %}}Chapter1{{% /staticref %}}
+- {{% staticref "files/2019/Chapter2-1.pdf" "newtab" %}}Chapter2-1{{% /staticref %}}
+- {{% staticref "files/2019/Chapter2-2.pdf" "newtab" %}}Chapter2-2{{% /staticref %}}
 
 ## 作业题
 
-Coming soon...
+- {{% staticref "files/2019/work1.pdf" "newtab" %}}homework1{{% /staticref %}}
 
 ## 习题课材料
 

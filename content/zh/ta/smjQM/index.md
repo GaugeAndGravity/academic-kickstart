@@ -47,7 +47,7 @@ slides: ""
 {{% /alert %}}
 
 {{% alert note %}}
-**作业1已发布，请及时做作业。**
+**习题课安排请参与群投票**
 {{% /alert %}}
 
 <div class="fixedtoc">{{% toc %}}</div>
@@ -106,10 +106,14 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
   </ul>
 </div>
 
+{{% alert note %}}
+由于未知原因，石老师的服务器无法上传文件，暂停更新，新文件请在本页面和QQ群获取。
+{{% /alert %}}
+
 ## 量子力学的一些参考材料
 
 {{% alert note %}}
-本页面上的pdf文件使用git lfs管理，目前大文件的下载访问似乎有些问题，进度条邻近下载完成时会慢到令人发指……这些文件也可以在QQ群群文件或者石名俊老师的主页<a href="http://staff.ustc.edu.cn/~shmj" target="_blank">staff.ustc.edu.cn/~shmj</a>访问下载，三个下载途径都会更新。
+本页面上的pdf文件使用git lfs管理，目前大文件的下载访问似乎有些问题，进度条邻近下载完成时会慢到令人发指……这些文件也可以在QQ群群文件访问下载，不同下载途径都会更新。
 {{% /alert %}}
 
 - {{% staticref "files/Modern Quantum Mechanics and solutions for the ex.pdf" "newtab" %}}Modern Quantum Mechanics and solutions, Sakurai, revised edition{{% /staticref %}}

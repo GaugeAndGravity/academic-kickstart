@@ -47,7 +47,7 @@ slides: ""
 {{% /alert %}}
 
 {{% alert note %}}
-**习题课安排请参与群投票**
+**第二次作业已发布**
 {{% /alert %}}
 
 <div class="fixedtoc">{{% toc %}}</div>
@@ -162,6 +162,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 ## 作业题
 
 - {{% staticref "files/2019/work1.pdf" "newtab" %}}homework1{{% /staticref %}}
+- {{% staticref "files/2019/work2.pdf" "newtab" %}}homework2{{% /staticref %}}
 
 ## 习题课材料
 

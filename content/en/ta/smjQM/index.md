@@ -142,4 +142,6 @@ The sever of Prof. Shi has some unknown error, so I can't upload any files to th
 
 ## Material of the Exercise lessons
 
+- {{% staticref "files/2019/solution1.pdf" "newtab" %}}solution1{{% /staticref %}}
+
 Coming soon...

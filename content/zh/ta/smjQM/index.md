@@ -47,7 +47,7 @@ slides: ""
 {{% /alert %}}
 
 {{% alert note %}}
-**第二次作业已发布，期限为10.30**
+**期中考试时间待议**
 {{% /alert %}}
 
 <div class="fixedtoc">{{% toc %}}</div>

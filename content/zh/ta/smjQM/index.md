@@ -159,6 +159,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 - {{% staticref "files/2019/Chapter2-2.pdf" "newtab" %}}Chapter2-2{{% /staticref %}}
 - {{% staticref "files/2019/Chapter3.pdf" "newtab" %}}Chapter3{{% /staticref %}}
 - {{% staticref "files/2019/Chapter4.pdf" "newtab" %}}Chapter4{{% /staticref %}}
+- {{% staticref "files/2019/Chapter5-1.pdf" "newtab" %}}Chapter5-1{{% /staticref %}}
 
 ## 作业题
 

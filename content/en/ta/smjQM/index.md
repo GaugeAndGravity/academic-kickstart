@@ -44,7 +44,7 @@ This is a TA homepage for Quantum Mechanics(A) 2019Full. **Notice of exercise le
 {{% /alert %}}
 
 {{% alert note %}}
-**For the time of the first exercise lesson, please vote in the QQ group.**
+**The Mid test will take place at 11/20.**
 {{% /alert %}}
 
 <div class="fixedtoc">{{% toc %}}</div>
@@ -135,11 +135,13 @@ The sever of Prof. Shi has some unknown error, so I can't upload any files to th
 - {{% staticref "files/2019/Chapter3.pdf" "newtab" %}}Chapter3{{% /staticref %}}
 - {{% staticref "files/2019/Chapter4.pdf" "newtab" %}}Chapter4{{% /staticref %}}
 - {{% staticref "files/2019/Chapter5-1.pdf" "newtab" %}}Chapter5-1{{% /staticref %}}
+- {{% staticref "files/2019/Chapter5-2.pdf" "newtab" %}}Chapter5-2{{% /staticref %}}
 
 ## Exercises
 
 - {{% staticref "files/2019/work1.pdf" "newtab" %}}homework1{{% /staticref %}}
 - {{% staticref "files/2019/work2.pdf" "newtab" %}}homework2{{% /staticref %}}
+- {{% staticref "files/2019/work3.pdf" "newtab" %}}homework3{{% /staticref %}}
 
 ## Material of the Exercise lessons
 

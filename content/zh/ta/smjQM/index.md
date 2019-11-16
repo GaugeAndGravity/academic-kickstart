@@ -47,7 +47,7 @@ slides: ""
 {{% /alert %}}
 
 {{% alert note %}}
-**期中考试时间待议**
+**期中考试定于11月20日，周三下午上课时间。**
 {{% /alert %}}
 
 <div class="fixedtoc">{{% toc %}}</div>
@@ -160,11 +160,13 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 - {{% staticref "files/2019/Chapter3.pdf" "newtab" %}}Chapter3{{% /staticref %}}
 - {{% staticref "files/2019/Chapter4.pdf" "newtab" %}}Chapter4{{% /staticref %}}
 - {{% staticref "files/2019/Chapter5-1.pdf" "newtab" %}}Chapter5-1{{% /staticref %}}
+- {{% staticref "files/2019/Chapter5-2.pdf" "newtab" %}}Chapter5-2{{% /staticref %}}
 
 ## 作业题
 
 - {{% staticref "files/2019/work1.pdf" "newtab" %}}homework1{{% /staticref %}}
 - {{% staticref "files/2019/work2.pdf" "newtab" %}}homework2{{% /staticref %}}
+- {{% staticref "files/2019/work3.pdf" "newtab" %}}homework3{{% /staticref %}}
 
 ## 习题课材料
 

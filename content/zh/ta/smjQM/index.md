@@ -50,6 +50,10 @@ slides: ""
 **期中考试定于11月20日，周三下午上课时间。**
 {{% /alert %}}
 
+{{% alert note %}}
+本周日（11/17）晚习题课。
+{{% /alert %}}
+
 <div class="fixedtoc">{{% toc %}}</div>
 
 $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$

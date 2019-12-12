@@ -43,9 +43,9 @@ slides: example
 This is a TA homepage for Quantum Mechanics(A) 2019Full. **Notice of exercise lessons, exams, etc. and solutions to the exercise will be published here.**
 {{% /alert %}}
 
-{{% alert note %}}
+<!-- {{% alert note %}}
 **The Mid test will take place at 11/20.**
-{{% /alert %}}
+{{% /alert %}} -->
 
 <div class="fixedtoc">{{% toc %}}</div>
 

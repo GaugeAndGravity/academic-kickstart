@@ -47,11 +47,7 @@ slides: ""
 {{% /alert %}}
 
 {{% alert note %}}
-**期中考试定于11月20日，周三下午上课时间。**
-{{% /alert %}}
-
-{{% alert note %}}
-本周日（11/17）晚习题课。
+本周日（12/15）晚习题课。
 {{% /alert %}}
 
 <div class="fixedtoc">{{% toc %}}</div>

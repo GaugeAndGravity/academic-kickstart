@@ -47,7 +47,11 @@ slides: ""
 {{% /alert %}}
 
 {{% alert note %}}
-本周日（12/15）晚习题课。
+第5次作业尽量交, 成绩会做调整.
+{{% /alert %}}
+
+{{% alert note %}}
+**1月11日期末考试, 开卷**
 {{% /alert %}}
 
 <div class="fixedtoc">{{% toc %}}</div>
@@ -168,6 +172,7 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 - {{% staticref "files/2019/work2.pdf" "newtab" %}}homework2{{% /staticref %}}
 - {{% staticref "files/2019/work3.pdf" "newtab" %}}homework3{{% /staticref %}}
 - {{% staticref "files/2019/work4.pdf" "newtab" %}}homework4{{% /staticref %}}
+- {{% staticref "files/2019/work5.pdf" "newtab" %}}homework5{{% /staticref %}}
 
 ## 习题课材料
 

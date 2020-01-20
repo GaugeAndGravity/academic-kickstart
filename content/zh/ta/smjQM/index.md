@@ -180,5 +180,3 @@ $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat
 
 - {{% staticref "files/2019/solution1.pdf" "newtab" %}}solution1{{% /staticref %}}
 - {{% staticref "files/2019/solution4.pdf" "newtab" %}}solution4{{% /staticref %}}
-
-待更新

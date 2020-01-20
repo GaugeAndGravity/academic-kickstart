@@ -47,6 +47,12 @@ This is a TA homepage for Quantum Mechanics(A) 2019Full. **Notice of exercise le
 **The Mid test will take place at 11/20.**
 {{% /alert %}} -->
 
+{{% alert warning %}}
+**All the scores of the final test and assignments have been calculated and uploaded，please visit <a href="http://home.ustc.ude.cn/~wyj1234" target="_blank">home.ustc.ude.cn/~wyj1234</a> to check your scores in time.**
+
+**If you have any problem with your scores displayed on the above website, please contact with me before 19:00, 2020-1-21.**
+{{% /alert %}}
+
 <div class="fixedtoc">{{% toc %}}</div>
 
 $$\mathrm{i}\hbar \frac{\mathrm{d}}{\mathrm{d} t} \left|\psi\right\rangle = \hat{H} \left|\psi\right\rangle$$
@@ -149,5 +155,3 @@ The sever of Prof. Shi has some unknown error, so I can't upload any files to th
 
 - {{% staticref "files/2019/solution1.pdf" "newtab" %}}solution1{{% /staticref %}}
 - {{% staticref "files/2019/solution4.pdf" "newtab" %}}solution4{{% /staticref %}}
-
-Coming soon...

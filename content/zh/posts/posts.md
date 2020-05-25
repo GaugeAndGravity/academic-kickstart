@@ -36,7 +36,7 @@ subtitle = "大喵太懒了，这里还什么都木有~"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 3
   
 [design.background]
   # Apply a background color, gradient, or image.

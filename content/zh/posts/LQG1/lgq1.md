@@ -1,8 +1,8 @@
 ---
-title: 2019秋 量子力学A
-summary: 石名俊班
+title: 圈量子引力一
+summary: 正则引力
 tags:
-- Quantum Mechanics
+- lqg
 date: "2019-08-21T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -47,10 +47,7 @@ $$
 
 其中 $\kappa = 8\pi \mathrm{G}$ 是耦合常数，$j^2 g$ 是场 $g$ 的 2-jet，$\mathcal{R}[j^2 g]$ 是标量曲率，$\mathbf{\varepsilon}$ 是与 $g$ 适配的体元。也可采用标量密度 $\tilde{\mathscr{L}}_{\text{EH}}$ 表示，
 
-$$
-\mathbf{\mathscr{L}}_{\text{EH}}[j^2 g] = \tilde{\mathscr{L}}_{\text{EH}} \mathbf{\epsilon},\\\\
-\tilde{\mathscr{L}}_{\text{EH}} = \frac{1}{2\kappa} f \mathcal{R}(j^2 g),
-$$
+$$\mathbf{\mathscr{L}}_{\text{EH}}[j^2 g] = \tilde{\mathscr{L}}_{\text{EH}} \mathbf{\epsilon},\\\\ \tilde{\mathscr{L}}_{\text{EH}} = \frac{1}{2\kappa} f \mathcal{R}(j^2 g),$$
 
 其中 $\mathbf{\epsilon}$ 是任意定向相容体元，$f$ 是满足 $\mathbf{\varepsilon} = f \mathbf{\epsilon}$ 的正函数。例如，在局部坐标系 $\left\{ x^\mu \right\}$ 下，若坐标系为右手系，即 $n$ 形式 $\,\mathrm{d}{x^1} \wedge \cdots \wedge \,\mathrm{d}{x^n}$ 与定向相容，则可取定 $\mathbf{\epsilon} = \,\mathrm{d}{x^1} \wedge \cdots \wedge \,\mathrm{d}{x^n}$，此时 $f=\sqrt{-\det g}$，其中 $\det g$ 指坐标系下 $ \left( g_{\mu\nu} \right) $ 的行列式。于是此时有
 
@@ -59,17 +56,19 @@ $$
 $$
 
 易证明，Einstein-Hilbert 作用量
-$$
-    S_{\text{EH}}[g] = \frac{1}{2\kappa} \int_M \mathcal{R}[g] 
-$$
+$$ S_{\text{EH}}[g] = \frac{1}{2\kappa} \int_M \mathcal{R}[g] $$
 的运动方程为真空 Einstein 方程
+
 $$
     Ric - \frac{1}{2} \mathcal{R} g = 0,
 $$
+
 或采取抽象指标形式，写作
+
 $$
     R_{ab} - \frac{1}{2} \mathcal{R} g_{ab} = 0.
 $$
+
 以下张量全部采用抽象指标记号，改用 $g_{ab}$ 表示度规张量，而 $g$ 表示其行列式。
 
 现在考虑哈密顿描述，这要求我们把时间从时空中分离出来。

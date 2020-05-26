@@ -98,7 +98,7 @@ $$
 
 **命题**
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2} \mathcal{L}_{n} h_{ab},\\\\">
-其中 $\mathcal{L}_{n}$ 表示沿 $n^a$ 的李导数。
+*其中 $\mathcal{L}_{n}$ 表示沿 $n^a$ 的李导数。*
 
 这里略去证明，可参见[[1](#ref-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 等任何相关教材。
 

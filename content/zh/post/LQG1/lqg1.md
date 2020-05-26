@@ -66,12 +66,12 @@ $$
 现在考虑哈密顿描述，这要求我们把时间从时空中分离出来。
 设时空 $\left( M, g \right)$ 整体双曲，则对时空有拓扑上的要求： $M \cong \mathbb{R} \times {\mathcal{S}}$，其中 ${\mathcal{S}}$ 是 $3$ 维流形[<sup>[1]</sup>](#refer-wald1989)。设有微分同胚 $\phi \colon M \rightarrow \mathbb{R} \times {\mathcal{S}}$，称为一个分层（foliation）。注意到任取 $\psi \in {\mathrm{Diff}(M)}$，$\phi \circ \psi$ 依然是分层，分层的集合与 ${\mathrm{Diff}(M)}$ 一一对应。记
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t := \phi^{-1}(\left\{ t \right\} \times {\mathcal{S}}),\\\\">
-这是类空超曲面，称为 $t$ 时刻的空间。记自然投影 $\pi \colon \mathbb{R} \times {\mathcal{S}} \rightarrow \mathbb{R}$, $\pi_{{\mathcal{S}}} \colon \mathbb{R} \times {\mathcal{S}} \rightarrow {\mathcal{S}}$，则有时间函数 $t := \pi \circ \phi \colon M \rightarrow \mathbb{R}$。此时 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 就是等 $t$ 面。$\pi_{{\mathcal{S}}} \circ \phi$ 可以将 $\mathrm{T}\!{{\mathcal{S}}}$ 拖回到 $M$ 上，其元素称为空间矢量，截面称为空间矢量场；进而可以定义空间张量丛和空间张量场。\footnote{我们之后不区分 ${\mathcal{S}}$ 上的张量和将它拖回到 $M$ 上得到的 $M$ 上的空间张量。}另外，超曲面族 $\left\{ {\mathcal{S}}_t \right\}$ 还定义了法余矢丛，其中每个余矢量正比于该点的 $ \,\mathrm{d}{t} $。
+这是类空超曲面，称为 $t$ 时刻的空间。记自然投影 $\pi \colon \mathbb{R} \times {\mathcal{S}} \rightarrow \mathbb{R}$, $\pi_{{\mathcal{S}}} \colon \mathbb{R} \times {\mathcal{S}} \rightarrow {\mathcal{S}}$，则有时间函数 $t := \pi \circ \phi \colon M \rightarrow \mathbb{R}$。此时 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 就是等 $t$ 面。$\pi_{{\mathcal{S}}} \circ \phi$ 可以将 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}\!{{\mathcal{S}}}"> 拖回到 $M$ 上，其元素称为空间矢量，截面称为空间矢量场；进而可以定义空间张量丛和空间张量场。[^1]另外，超曲面族 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ {\mathcal{S}}_t \right\}"> 还定义了法余矢丛，其中每个余矢量正比于该点的 $ \,\mathrm{d}{t} $。
 
-考虑 $g$ 的 $3+1$ 分解。我们记 $n_a$ 是单位法余矢场，即 $n^a n_a = -1$，则可以验证
-$$
-h_{ab} := g_{ab} + n_a n_b
-$$
+[^1]: 我们之后不区分 ${\mathcal{S}}$ 上的张量和将它拖回到 $M$ 上得到的 $M$ 上的空间张量。
+
+考虑 $g$ 的 $3+1$ 分解。我们记 $n_a$ 是单位法余矢场，即 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n^a n_a = -1">，则可以验证
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=h_{ab} := g_{ab} + n_a n_b\\\\">
 是空间对称张量，且它是 $g$ 在 $\mathrm{T}\!{{\mathcal{S}}_t}$ 上的限制，我们称其为 $g$ 所诱导的空间度规，这是我们引入的第一个空间量。再考虑“时间部分”，我们引入矢量场
 $$
 t^a := \left( \pi \circ \phi \right)^* \left( \frac{\partial}{\partial t} \right)^a,

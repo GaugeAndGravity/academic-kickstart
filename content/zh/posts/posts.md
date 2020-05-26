@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "博文"
-subtitle = "大喵太懒了，这里还什么都木有~"
+subtitle = "一些碎碎念~"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

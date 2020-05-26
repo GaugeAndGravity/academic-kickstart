@@ -78,7 +78,7 @@ t^a := \left( \pi \circ \phi \right)^* \left( \frac{\partial}{\partial t} \right
 $$
 其中 $\left( \partial/\partial t \right)^a$ 是 $\mathbb{R}$ 中的自然坐标基矢场。则有
 $$
-t^a \nabla_{a} t = -1, %\label{eqt}
+t^a \nabla_{a} t = -1, \label{eqt}
 $$
 $t^a$ 的积分曲线汇（作为观测者世界线）标志了在微分同胚 $\phi$ 下不同时空点如何“对齐”为“同一空间点”，它们定义了一个参考系。在每点 $p\in {\mathcal{S}}_t$ 作直和分解
 $$

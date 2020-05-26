@@ -94,4 +94,6 @@ tr:last-child td:last-child {
 
 .displaymath{
 	display: block;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
 }

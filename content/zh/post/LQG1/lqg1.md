@@ -104,19 +104,13 @@ $$
 
 这里略去证明，可参见[[1](#ref-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 等任何相关教材。
 
-还需定义空间量的时间导数，沿 $t^a$ 的李导数是好的候选者，但空间张量的李导数未必还是空间张量，为此定义 $\tilde{\mathcal{L}}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}$ 为 $\mathcal{L}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}$ 的空间投影，即
-$$
-\tilde{\mathcal{L}}_{v} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} := {h}^{a_1}_{\phantom{a_1}c_1} \cdots {h}^{a_k}_{\phantom{a_1}c_k} {h}^{d_1}_{\phantom{d_1}b_1} \cdots {h}^{d_l}_{\phantom{d_l}b_l} \mathcal{L}_{v} {T}^{c_1 \cdots c_k}_{\phantom{c_1 \cdots c_k}d_1 \cdots d_l}, %\label{eq-spaceLd}
-$$
+还需定义空间量的时间导数，沿 $t^a$ 的李导数是好的候选者，但空间张量的李导数未必还是空间张量，为此定义 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathcal{L}}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}"> 为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{L}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}"> 的空间投影，即
+<img class=displaymath id="eq-spaceLd" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathcal{L}}_{v} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} := {h}^{a_1}_{\phantom{a_1}c_1} \cdots {h}^{a_k}_{\phantom{a_1}c_k} {h}^{d_1}_{\phantom{d_1}b_1} \cdots {h}^{d_l}_{\phantom{d_l}b_l} \mathcal{L}_{v} {T}^{c_1 \cdots c_k}_{\phantom{c_1 \cdots c_k}d_1 \cdots d_l},\\\\">
 然后即可定义
-$$
-{\dot{T}}^{a_1 \cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} := \tilde{\mathcal{L}}_{t} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} = N \tilde{\mathcal{L}}_{n} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} + \tilde{\mathcal{L}}_{N} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l}, %\label{eq-timedot}
-$$
+<img class=displaymath id="eq-timedot" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex={\dot{T}}^{a_1 \cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} := \tilde{\mathcal{L}}_{t} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} = N \tilde{\mathcal{L}}_{n} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} + \tilde{\mathcal{L}}_{N} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l},\\\\">
 则得到
-$$
-\dot{h}_{ab} = 2N K_{ab} + 2 D_{{(a}} {N}_{b)},
-$$
-其中 $D_{a}$ 是 ${\mathcal{S}}_t$ 上与 $h_{ab}$ 相容的联络。
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\dot{h}_{ab} = 2N K_{ab} + 2 D_{{(a}} {N}_{b)},\\\\">
+其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=D_{a}"> 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 上与 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 相容的联络。
 
 现在，我们把 $\tilde{\mathscr{L}}_{\text{EH}} = \frac{1}{2\kappa} \sqrt{- \det g} \mathcal{R}$ 用空间量表示。需要借助 Gauss 方程
 $$

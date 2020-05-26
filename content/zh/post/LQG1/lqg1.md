@@ -77,17 +77,13 @@ $$
 t^a := \left( \pi \circ \phi \right)^* \left( \frac{\partial}{\partial t} \right)^a,
 $$
 其中 $\left( \partial/\partial t \right)^a$ 是 $\mathbb{R}$ 中的自然坐标基矢场。则有
-$$
-t^a \nabla_{a} t = -1, \label{eqt}
-$$
+<img class=displaymath id="eqt" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a \nabla_{a} t = -1,\tag{1}">
 $t^a$ 的积分曲线汇（作为观测者世界线）标志了在微分同胚 $\phi$ 下不同时空点如何“对齐”为“同一空间点”，它们定义了一个参考系。在每点 $p\in {\mathcal{S}}_t$ 作直和分解
 $$
 t^a = N n^a + n^a ,\quad N>0 ,\quad n^a \in \mathrm{T}_p{{\mathcal{S}}_t}, %\label{eqtsplit}
 $$
-称 $N$ 为时移函数（lapse function），$n^a$ 为位移矢量（shift vector）场，这是我们引入的第2、3个空间量。由 \eqref{eqt} 容易算得
-$$
-n_a = - N \nabla_{a} t, %\label{eqn}
-$$
+称 $N$ 为时移函数（lapse function），$n^a$ 为位移矢量（shift vector）场，这是我们引入的第2、3个空间量。由 [(1)](#eqt) 容易算得
+<img class=displaymath id="eqn" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=n_a = - N \nabla_{a} t\\\\">
 
 现在我们来说明，给定 $\phi$，即有了 $\left\{ {\mathcal{S}}_t \right\}$、$t$ 和 $t^a$ 的条件下，空间量 $\left( h_{ab} , N, n_a \right)$ 和 时空量 $g_{ab}$ 互相确定，因而 $\left( h_{ab} , N, n_a \right)$ 可以作为位型变量。由 $g_{ab}$ 给出 $\left( h_{ab} , N, n_a \right)$ 的过程已经在上面写出，而给定 $\left( h_{ab} , N, n_a \right)$ 后，首先将空间张量 $h_{ab}$ 视作 ${\mathcal{S}}$ 上的度量张量，取逆再拖回到 $M$ 上得空间张量 $h^{ab}$。由 \eqref{eqtsplit} 知
 $$

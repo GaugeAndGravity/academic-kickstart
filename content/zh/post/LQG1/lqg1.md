@@ -99,7 +99,7 @@ $$
 <div class="property">
 <div class="property-title">命题</div>
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2} \mathcal{L}_{n} h_{ab},\\\\">
-其中 $\mathcal{L}_{n}$ 表示沿 $n^a$ 的李导数。
+其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{L}_{n}"> 表示沿 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n^a"> 的李导数。
 </div>
 
 这里略去证明，可参见[[1](#ref-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 等任何相关教材。
@@ -116,7 +116,7 @@ $$
 <img class=displaymath id="eq-gauss" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}_{abc}^{\phantom{abc}d} = {h}_a^{\phantom{a}k} {h}_b^{\phantom{b}l} {h}_c^{\phantom{c}m} {h}_n^{\phantom{n}d} \mathcal{R}_{klm}^{\phantom{klm}n} - 2 {K}{_{c[a}} {K}_{b]}^{\phantom{b]}d},\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}_{abc}^{\phantom{abc}d}"> 是3维流形 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 上空间度规 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 对应的曲率；<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={T}_{[\cdots]}"> 表示对张量 $T$ 反称化。略去所有计算过程，我们得到
 <img class=displaymath id="eq-L_split" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathscr{L}} = \frac{1}{2\kappa} \sqrt{h} N \left( \mathcal{R} - K^2 + K_{ab} {K}^{ab} \right),\tag{3}">
-其中 $h$ 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 的分量矩阵的行列式， $\mathcal{R}$ 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{S}_t"> 上的标量曲率，由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 及其二阶空间导数确定，而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K_{ab}"> 通过
+其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h"> 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 的分量矩阵的行列式， <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}"> 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{S}_t"> 上的标量曲率，由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 及其二阶空间导数确定，而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K_{ab}"> 通过
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2N} \left( {\dot{h}}_{ab} - 2 {D}_{(a} {N}_{b)} \right)\\\\">
 由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\dot{h}}_{ab}, N, n_a, D_{a}"> 决定，并有 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K = h^{ab} K_{ab}">。这说明 [3](#eq-L_split) 的确是位型变量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 及其时间导数及空间导数的函数。可求得共轭动量
 $$

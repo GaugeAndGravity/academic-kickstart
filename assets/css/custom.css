@@ -107,10 +107,12 @@ tr:last-child td:last-child {
     border: inset;
     padding: 0.5em;
     border-width: 2pt;
-    border-color: wheat;
+	border-color: wheat;
+	font-size: smaller;
 }
 
 .property-title{
 	font-weight: bold;
 	padding-right: 1em;
+	font-style: normal;
 }

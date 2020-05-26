@@ -97,3 +97,8 @@ tr:last-child td:last-child {
 	margin-top: 0pt;
 	margin-bottom: 0pt;
 }
+
+.property{
+	width: 70%;
+	font-style: italic;
+}

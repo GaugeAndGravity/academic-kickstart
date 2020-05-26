@@ -96,9 +96,11 @@ $$
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a = K_{ab} := h_{a}^{\phantom{a}c} \nabla_{c} n_b,\\\\">
 我们即将看到它与 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 的共轭动量的联系。这从以下命题即可初见端倪：
 
+<div class="property">
 **命题**
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2} \mathcal{L}_{n} h_{ab},\\\\">
-*其中 $\mathcal{L}_{n}$ 表示沿 $n^a$ 的李导数。*
+其中 $\mathcal{L}_{n}$ 表示沿 $n^a$ 的李导数。
+</div>
 
 这里略去证明，可参见[[1](#ref-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 等任何相关教材。
 

@@ -97,7 +97,7 @@ $$
 我们即将看到它与 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 的共轭动量的联系。这从以下命题即可初见端倪：
 
 <div class="property">
-**命题**
+<div class="property-title">命题</div>
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2} \mathcal{L}_{n} h_{ab},\\\\">
 其中 $\mathcal{L}_{n}$ 表示沿 $n^a$ 的李导数。
 </div>

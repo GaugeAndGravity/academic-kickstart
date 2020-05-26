@@ -67,13 +67,13 @@ $$
 
 或采取抽象指标形式，写作
 
-$$ R_{ab} - \frac{1}{2} \mathcal{R} g_{ab} = 0. $$
+$$ R\\_{ab} - \frac{1}{2} \mathcal{R} g\\_{ab} = 0. $$
 
 以下张量全部采用抽象指标记号，改用 $g_{ab}$ 表示度规张量，而 $g$ 表示其行列式。
 
 现在考虑哈密顿描述，这要求我们把时间从时空中分离出来。
 <!--原因如下。一般来说，在经典力学的拉格朗日描述中，运动 $\gamma$ 是流形 $M$ 上的光滑曲线 $\gamma \colon \mathbb{R} \rightarrow M$，拉氏量定义在 $\mathrm{Jet}^1(\mathbb{R},M) \cong \mathbb{R} \times \mathrm{T}\!M$ 上；而经典场论的拉格朗日描述中，场 $\psi$ 是流形间的光滑映射 $\psi \colon M \rightarrow N$，拉氏量定义在 $\Jet{k}{M}{N}$ 上。再考虑哈密顿力学，由于 $\mathbb{R} \times \mathrm{T}\!M$ 是 $M$ 上的矢量丛，可定义 Legendre 变换 $f \colon \mathbb{R} \times \mathrm{T}\!M \rightarrow \mathbb{R} \times \CTB{M}$；可对场论而言，$\Jet{k}{M}{N}$ 一般并非矢量丛。即便我们考虑物理中的实际情形，$N$ 取为矢量空间 $V$ ，$\Jet{k}{M}{V} \cong M \times \Jet[x]{k}{M}{V}, x\in M$ 作为 $V$ 上的丛依然不是矢量丛。解决方法是依然把时间从时空中抽离，假定时空是整体双曲的，则对时空有拓扑上的要求： $M \cong \mathbb{R} \times {\mathcal{S}}$，其中 ${\mathcal{S}}$ 是 $3$ 维流形\cite{wald1989}，有 $\Jet{k}{M}{V} \cong \mathbb{R} \times {\mathcal{S}} \times \Jet[x]{k}{M}{V}$ 是 ${\mathcal{S}} \times V$ 上的矢量丛。动力学表述为 ${\mathcal{S}} \times V$ 的截面的时间演化。-->
-设时空 $\left( M, g \right)$ 整体双曲，则对时空有拓扑上的要求： $M \cong \mathbb{R} \times {\mathcal{S}}$，其中 ${\mathcal{S}}$ 是 $3$ 维流形[<sup>[1]</sup>](#refer-wald1989)。设有微分同胚 $\phi \colon M \rightarrow \mathbb{R} \times {\mathcal{S}}$，称为一个分层（foliation）。注意到任取 $\psi \in {\mathrm{Diff}(M)}$，$\phi \circ \psi$ 依然是分层，分层的集合与 ${\mathrm{Diff}(M)}$ 一一对应。记 ${\mathcal{S}}\\_t := \phi^{-1}(\left\{ t \right\} \times {\mathcal{S}})$，这是类空超曲面，称为 $t$ 时刻的空间。记自然投影 $\pi \colon \mathbb{R} \times {\mathcal{S}} \rightarrow \mathbb{R}$, $\pi_{{\mathcal{S}}} \colon \mathbb{R} \times {\mathcal{S}} \rightarrow {\mathcal{S}}$，则有时间函数 $t := \pi \circ \phi \colon M \rightarrow \mathbb{R}$。此时 ${\mathcal{S}}_t$ 就是等 $t$ 面。$\pi_{{\mathcal{S}}} \circ \phi$ 可以将 $\mathrm{T}\!{{\mathcal{S}}}$ 拖回到 $M$ 上，其元素称为空间矢量，截面称为空间矢量场；进而可以定义空间张量丛和空间张量场。\footnote{我们之后不区分 ${\mathcal{S}}$ 上的张量和将它拖回到 $M$ 上得到的 $M$ 上的空间张量。}另外，超曲面族 $\left\{ {\mathcal{S}}_t \right\}$ 还定义了法余矢丛，其中每个余矢量正比于该点的 $\,\mathrm{d}{t}$。
+设时空 $\left( M, g \right)$ 整体双曲，则对时空有拓扑上的要求： $M \cong \mathbb{R} \times {\mathcal{S}}$，其中 ${\mathcal{S}}$ 是 $3$ 维流形[<sup>[1]</sup>](#refer-wald1989)。设有微分同胚 $\phi \colon M \rightarrow \mathbb{R} \times {\mathcal{S}}$，称为一个分层（foliation）。注意到任取 $\psi \in {\mathrm{Diff}(M)}$，$\phi \circ \psi$ 依然是分层，分层的集合与 ${\mathrm{Diff}(M)}$ 一一对应。记 ${\mathcal{S}}_t := \phi^{-1}(\left\{ t \right\} \times {\mathcal{S}})$ ，这是类空超曲面，称为 $t$ 时刻的空间。记自然投影 $\pi \colon \mathbb{R} \times {\mathcal{S}} \rightarrow \mathbb{R}$, $\pi_{{\mathcal{S}}} \colon \mathbb{R} \times {\mathcal{S}} \rightarrow {\mathcal{S}}$，则有时间函数 $t := \pi \circ \phi \colon M \rightarrow \mathbb{R}$。此时 ${\mathcal{S}}_t$ 就是等 $t$ 面。$\pi_{{\mathcal{S}}} \circ \phi$ 可以将 $\mathrm{T}\!{{\mathcal{S}}}$ 拖回到 $M$ 上，其元素称为空间矢量，截面称为空间矢量场；进而可以定义空间张量丛和空间张量场。\footnote{我们之后不区分 ${\mathcal{S}}$ 上的张量和将它拖回到 $M$ 上得到的 $M$ 上的空间张量。}另外，超曲面族 $\left\{ {\mathcal{S}}_t \right\}$ 还定义了法余矢丛，其中每个余矢量正比于该点的 $\,\mathrm{d}{t}$。
 
 考虑 $g$ 的 $3+1$ 分解。我们记 $n_a$ 是单位法余矢场，即 $n^a n_a = -1$，则可以验证
 $$

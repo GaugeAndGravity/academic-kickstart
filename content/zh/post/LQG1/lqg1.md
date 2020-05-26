@@ -79,7 +79,7 @@ $$
 其中 $\left( \partial/\partial t \right)^a$ 是 $\mathbb{R}$ 中的自然坐标基矢场。则有
 <img class=displaymath id="eqt" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a \nabla_{a} t = -1,\tag{1}">
 $t^a$ 的积分曲线汇（作为观测者世界线）标志了在微分同胚 $\phi$ 下不同时空点如何“对齐”为“同一空间点”，它们定义了一个参考系。在每点 $p\in {\mathcal{S}}_t$ 作直和分解
-<img class=displaymath id="eqtsplit" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a=Nn^a+n^a,\quad N>0,\quad n^a \in \mathrm{T}_p{{\mathcal{S}}_t}\tag{2},\\\\"></img>
+<img class=displaymath id="eqtsplit" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a=Nn^a+n^a,\quad N>0,\quad n^a \in \mathrm{T}_p{{\mathcal{S}}_t}\tag{2},\\\\></img>
 称 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=N"> 为时移函数（lapse function），<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n^a"> 为位移矢量（shift vector）场，这是我们引入的第2、3个空间量。由 [(1)](#eqt) 容易算得
 <img class=displaymath id="eqn" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=n_a = - N \nabla_{a} t.\\\\">
 

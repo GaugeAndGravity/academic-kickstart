@@ -79,7 +79,7 @@ $$
 其中 $\left( \partial/\partial t \right)^a$ 是 $\mathbb{R}$ 中的自然坐标基矢场。则有
 <img class=displaymath id="eqt" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a \nabla_{a} t = -1,\tag{1}">
 $t^a$ 的积分曲线汇（作为观测者世界线）标志了在微分同胚 $\phi$ 下不同时空点如何“对齐”为“同一空间点”，它们定义了一个参考系。在每点 $p\in {\mathcal{S}}_t$ 作直和分解
-<img class=displaymath id="eqtsplit" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a = N n^a + n^a ,\quad N>0 ,\quad n^a \in \mathrm{T}_p{{\mathcal{S}}_t},\tag{2}">
+<img class=displaymath id="eqtsplit" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a=Nn^a+n^a,\quad N>0,\quad n^a \in \mathrm{T}_p{{\mathcal{S}}_t},\tag{2}"></img>
 称 $N$ 为时移函数（lapse function），$n^a$ 为位移矢量（shift vector）场，这是我们引入的第2、3个空间量。由 [(1)](#eqt) 容易算得
 <img class=displaymath id="eqn" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=n_a = - N \nabla_{a} t.\\\\">
 
@@ -112,25 +112,19 @@ $$
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\dot{h}_{ab} = 2N K_{ab} + 2 D_{{(a}} {N}_{b)},\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=D_{a}"> 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 上与 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 相容的联络。
 
-现在，我们把 $\tilde{\mathscr{L}}_{\text{EH}} = \frac{1}{2\kappa} \sqrt{- \det g} \mathcal{R}$ 用空间量表示。需要借助 Gauss 方程
-$$
-\mathcal{R}_{abc}^{\phantom{abc}d} = {h}_a^{\phantom{a}k} {h}_b^{\phantom{b}l} {h}_c^{\phantom{c}m} {h}_n^{\phantom{n}d} \mathcal{R}_{klm}^{\phantom{klm}n} - 2 {K}{_{c[a}} {K}_{b]}^{\phantom{b]}d}, %\label{eqgauss}
-$$
-其中 $\mathcal{R}_{abc}^{\phantom{abc}d}$ 是3维流形 ${\mathcal{S}}_t$ 上空间度规 $h_{ab}$ 对应的曲率；${T}_{[\cdots]}$ 表示对张量 $T$ 反称化。略去所有计算过程，我们得到
-$$
-\tilde{\mathscr{L}} = \frac{1}{2\kappa} \sqrt{h} N \left( \mathcal{R} - K^2 + K_{ab} {K}^{ab} \right), %\label{eq-L_split}
-$$
-其中 $h$ 是 $h_{ab}$ 的分量矩阵的行列式， $\mathcal{R}$ 是 ${\mathcal{S}}_t$ 上的标量曲率，由 $h_{ab}$ 及其二阶空间导数确定，而 $K_{ab}$ 通过
-$$
-K_{ab} = \frac{1}{2N} \left( {\dot{h}}_{ab} - 2 {D}_{(a} {N}_{b)} \right)
-$$
-由 ${\dot{h}}_{ab}, N, n_a, D_{a}$ 决定，并有 $K = h^{ab} K_{ab}$。这说明 \eqref{eq-L_split} 的确是位型变量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 及其时间导数及空间导数的函数。可求得共轭动量
+现在，我们把 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathscr{L}}_{\text{EH}} = \frac{1}{2\kappa} \sqrt{- \det g} \mathcal{R}"> 用空间量表示。需要借助 Gauss 方程
+<img class=displaymath id="eq-gauss" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}_{abc}^{\phantom{abc}d} = {h}_a^{\phantom{a}k} {h}_b^{\phantom{b}l} {h}_c^{\phantom{c}m} {h}_n^{\phantom{n}d} \mathcal{R}_{klm}^{\phantom{klm}n} - 2 {K}{_{c[a}} {K}_{b]}^{\phantom{b]}d},\\\\">
+其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}_{abc}^{\phantom{abc}d}"> 是3维流形 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 上空间度规 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 对应的曲率；<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={T}_{[\cdots]}"> 表示对张量 $T$ 反称化。略去所有计算过程，我们得到
+<img class=displaymath id="eq-L_split" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathscr{L}} = \frac{1}{2\kappa} \sqrt{h} N \left( \mathcal{R} - K^2 + K_{ab} {K}^{ab} \right),\tag{3}">
+其中 $h$ 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 的分量矩阵的行列式， $\mathcal{R}$ 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{S}_t"> 上的标量曲率，由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 及其二阶空间导数确定，而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K_{ab}"> 通过
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2N} \left( {\dot{h}}_{ab} - 2 {D}_{(a} {N}_{b)} \right)\\\\">
+由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\dot{h}}_{ab}, N, n_a, D_{a}"> 决定，并有 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K = h^{ab} K_{ab}">。这说明 [3](#eq-L_split) 的确是位型变量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 及其时间导数及空间导数的函数。可求得共轭动量
 $$
 \pi_N = \frac{\partial \tilde{\mathscr{L}}}{\partial \dot{N}} = 0 ,\quad \pi^a = \frac{\partial\tilde{\mathscr{L}}}{\partial\dot{N}_a} = 0, %\label{eq-constrain12}
 \\
 \pi^{ab} = \frac{\partial\tilde{\mathscr{L}}}{\partial {\dot{h}}_{ab}} = \frac{1}{2\kappa} \sqrt{h} \left( K^{ab} - K h^{ab} \right), %\label{eq-pi}
 $$
-其中 $\pi_N$, $\pi^a$, $\pi^{ab}$ 分别是与 $N$, $n_a$, $h_{ab}$ 共轭的动量。\eqref{eq-constrain12} 给出两个初级约束。去掉一些边界项后，有哈密顿量
+其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\pi_{N}">, $\pi^a$, $\pi^{ab}$ 分别是与 $N$, <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n_a">, <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 共轭的动量。\eqref{eq-constrain12} 给出两个初级约束。去掉一些边界项后，有哈密顿量
 $$
 H[N,n_a, h_{ab}, \pi^{ab}] = \frac{1}{2\kappa} \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} \left( N C + n_a V^a \right), %\label{eq-ADM_H}
 $$
@@ -139,7 +133,7 @@ $$
 C := - \frac{\sqrt{h}}{2\kappa} \mathcal{R} + \frac{2\kappa}{\sqrt{h}} \left( \pi_{ab} \pi^{ab} - \frac{1}{2} \pi^2 \right),\\
 V^a := -2 D_{b} \pi^{ab}.
 $$
-对 $N, n_a$ 变分给出两个次级约束，称为标量约束和矢量约束
+对 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=N">，<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n_a"> 变分给出两个次级约束，称为标量约束和矢量约束
 $$
 C = 0 ,\quad V^a = 0, %\label{eq-constrain34}
 $$
@@ -149,7 +143,7 @@ $$
 $$
 C(f) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} C f  ,\quad V ({v}) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} V_a v^a,
 $$
-其中 $f\in C^\infty({\mathcal{S}}), v\in \Gamma(\mathrm{T}\!{{\mathcal{S}}})$ 满足适当的边界条件，可以算得泊松括号
+其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=f\in C^\infty({\mathcal{S}}), v\in \Gamma(\mathrm{T}\!{{\mathcal{S}}})"> 满足适当的边界条件，可以算得泊松括号
 $$
 \begin{aligned}
 \left\{ V({u}), V({v}) \right\} &= 2\kappa V(\mathcal{L}_{{u}} {v}),\\

@@ -39,7 +39,7 @@ slides: ""
 
 ### ADM 形式
 
-为了研究时间演化及对引力进行量子化，我们需要考虑广义相对论的哈密顿描述。我们主要依照文献 [[1](#refer-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 展开。在拉格朗日描述下，考虑 $n$ 维光滑可定向流形 $M$ ，记 $M$ 上的洛伦兹度规的集合为 $\mathrm{Lor}(M)$， 由于微分同胚不变性的规范对称性，广义相对论的位型空间为 ${\mathcal{S}(M)} := {\mathrm{Lor}(M)}/{\mathrm{Diff}(M)}$。理论的拉氏量为
+为了研究时间演化及对引力进行量子化，我们需要考虑广义相对论的哈密顿描述。我们主要依照文献 [[1](#ref-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 展开。在拉格朗日描述下，考虑 $n$ 维光滑可定向流形 $M$ ，记 $M$ 上的洛伦兹度规的集合为 $\mathrm{Lor}(M)$， 由于微分同胚不变性的规范对称性，广义相对论的位型空间为 ${\mathcal{S}(M)} := {\mathrm{Lor}(M)}/{\mathrm{Diff}(M)}$。理论的拉氏量为
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathbf{\mathscr{L}}_{\text{EH}}[j^2 g] := \frac{1}{2\kappa} \mathcal{R}(j^2 g) \mathbf{\varepsilon},\\\\">
 其中 $\kappa = 8\pi \mathrm{G}$ 是耦合常数，$j^2 g$ 是场 $g$ 的 2-jet，$\mathcal{R}[j^2 g]$ 是标量曲率，$\mathbf{\varepsilon}$ 是与 $g$ 适配的体元。也可采用标量密度 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathscr{L}}_{\text{EH}}"> 表示，
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathbf{\mathscr{L}}_{\text{EH}}[j^2 g] = \tilde{\mathscr{L}}_{\text{EH}} \mathbf{\epsilon},\\ \tilde{\mathscr{L}}_{\text{EH}} = \frac{1}{2\kappa} f \mathcal{R}(j^2 g),\\\\">
@@ -64,7 +64,7 @@ $$
 以下张量全部采用抽象指标记号，改用 $g_{ab}$ 表示度规张量，而 $g$ 表示其行列式。
 
 现在考虑哈密顿描述，这要求我们把时间从时空中分离出来。
-设时空 $\left( M, g \right)$ 整体双曲，则对时空有拓扑上的要求： $M \cong \mathbb{R} \times {\mathcal{S}}$，其中 ${\mathcal{S}}$ 是 $3$ 维流形[<sup>[1]</sup>](#refer-wald1989)。设有微分同胚 $\phi \colon M \rightarrow \mathbb{R} \times {\mathcal{S}}$，称为一个分层（foliation）。注意到任取 $\psi \in {\mathrm{Diff}(M)}$，$\phi \circ \psi$ 依然是分层，分层的集合与 ${\mathrm{Diff}(M)}$ 一一对应。记
+设时空 $\left( M, g \right)$ 整体双曲，则对时空有拓扑上的要求： $M \cong \mathbb{R} \times {\mathcal{S}}$，其中 ${\mathcal{S}}$ 是 $3$ 维流形[<sup>[1]</sup>](#ref-wald1989)。设有微分同胚 $\phi \colon M \rightarrow \mathbb{R} \times {\mathcal{S}}$，称为一个分层（foliation）。注意到任取 $\psi \in {\mathrm{Diff}(M)}$，$\phi \circ \psi$ 依然是分层，分层的集合与 ${\mathrm{Diff}(M)}$ 一一对应。记
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t := \phi^{-1}(\left\{ t \right\} \times {\mathcal{S}}),\\\\">
 这是类空超曲面，称为 $t$ 时刻的空间。记自然投影 $\pi \colon \mathbb{R} \times {\mathcal{S}} \rightarrow \mathbb{R}$, $\pi_{{\mathcal{S}}} \colon \mathbb{R} \times {\mathcal{S}} \rightarrow {\mathcal{S}}$，则有时间函数 $t := \pi \circ \phi \colon M \rightarrow \mathbb{R}$。此时 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 就是等 $t$ 面。$\pi_{{\mathcal{S}}} \circ \phi$ 可以将 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}\!{{\mathcal{S}}}"> 拖回到 $M$ 上，其元素称为空间矢量，截面称为空间矢量场；进而可以定义空间张量丛和空间张量场。[^1]另外，超曲面族 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ {\mathcal{S}}_t \right\}"> 还定义了法余矢丛，其中每个余矢量正比于该点的 $ \,\mathrm{d}{t} $。
 
@@ -79,13 +79,11 @@ $$
 其中 $\left( \partial/\partial t \right)^a$ 是 $\mathbb{R}$ 中的自然坐标基矢场。则有
 <img class=displaymath id="eqt" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a \nabla_{a} t = -1,\tag{1}">
 $t^a$ 的积分曲线汇（作为观测者世界线）标志了在微分同胚 $\phi$ 下不同时空点如何“对齐”为“同一空间点”，它们定义了一个参考系。在每点 $p\in {\mathcal{S}}_t$ 作直和分解
-$$
-t^a = N n^a + n^a ,\quad N>0 ,\quad n^a \in \mathrm{T}_p{{\mathcal{S}}_t}, %\label{eqtsplit}
-$$
+<img class=displaymath id="eqtsplit" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a = N n^a + n^a ,\quad N>0 ,\quad n^a \in \mathrm{T}_p{{\mathcal{S}}_t},\tag{2}">
 称 $N$ 为时移函数（lapse function），$n^a$ 为位移矢量（shift vector）场，这是我们引入的第2、3个空间量。由 [(1)](#eqt) 容易算得
 <img class=displaymath id="eqn" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=n_a = - N \nabla_{a} t.\\\\">
 
-现在我们来说明，给定 $\phi$，即有了 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ {\mathcal{S}}_t \right\}">、$t$ 和 $t^a$ 的条件下，空间量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 和 时空量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}"> 互相确定，因而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 可以作为位型变量。由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}"> 给出 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 的过程已经在上面写出，而给定 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 后，首先将空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 视作 ${\mathcal{S}}$ 上的度量张量，取逆再拖回到 $M$ 上得空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}">。由 \eqref{eqtsplit} 知
+现在我们来说明，给定 $\phi$，即有了 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ {\mathcal{S}}_t \right\}">、$t$ 和 $t^a$ 的条件下，空间量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 和 时空量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}"> 互相确定，因而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 可以作为位型变量。由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}"> 给出 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 的过程已经在上面写出，而给定 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 后，首先将空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 视作 ${\mathcal{S}}$ 上的度量张量，取逆再拖回到 $M$ 上得空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}">。由 [(2)](#eqtsplit) 知
 $$
 n^a = \frac{1}{N} \left( t^a - n^a \right),
 $$
@@ -94,18 +92,15 @@ $$
 g^{ab} = -n^a n^b + h^{ab} = - \frac{1}{N^2} \left( t^a - n^a \right) \left( t^b - n^b \right) + h^{ab}.
 $$
 
-描述每张超曲面 ${\mathcal{S}}_t$ 的除了描述内蕴几何的 $h_{ab}$ 之外还有描述它如何嵌入 $M$ 的外曲率 $K_{ab}$，定义为
-$$
-K_{ab} := h_{a}^{\phantom{a}c} \nabla_{c} n_b,
-$$
-我们即将看到它与 $h_{ab}$ 的共轭动量的联系。这从以下命题即可初见端倪：
-\begin{Property}
-$$
-K_{ab} = \frac{1}{2} \mathcal{L}_{n} h_{ab},
-$$
+描述每张超曲面 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 的除了描述内蕴几何的 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 之外还有描述它如何嵌入 $M$ 的外曲率 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K_{ab}">，定义为
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=t^a = K_{ab} := h_{a}^{\phantom{a}c} \nabla_{c} n_b,\\\\">
+我们即将看到它与 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 的共轭动量的联系。这从以下命题即可初见端倪：
+
+**命题**
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2} \mathcal{L}_{n} h_{ab},\\\\">
 其中 $\mathcal{L}_{n}$ 表示沿 $n^a$ 的李导数。
-\end{Property}
-这里略去证明，可参见\inlinecite{wald1989,liang3,Thiemann2007} 等任何相关教材。
+
+这里略去证明，可参见[[1](#ref-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 等任何相关教材。
 
 还需定义空间量的时间导数，沿 $t^a$ 的李导数是好的候选者，但空间张量的李导数未必还是空间张量，为此定义 $\tilde{\mathcal{L}}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}$ 为 $\mathcal{L}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}$ 的空间投影，即
 $$
@@ -174,6 +169,6 @@ $$
 
 ## 参考文献
 
-- <div id="refer-wald1989">[1] Wald R M. General relativity. Chicago: The University of Chicago Press, 1989.</div>
-- <div id="refer-liang3">[2] 梁灿彬. 微分几何入门与广义相对论: 下册. 2 版. 北京: 科学出版社, 2009.</div>
-- <div id="refer-Thiemann2007">[3] Thiemann T. Cambridge monographs on mathematical physics: Modern Canoni­cal Quantum General Relativity. Cambridge: Cambridge University Press, 2007. DOI: <a href="http://doi.org/10.1017/CBO9780511755682">10.1017/CBO9780511755682</a>.</div>
+- <div id="ref-wald1989">[1] Wald R M. General relativity. Chicago: The University of Chicago Press, 1989.</div>
+- <div id="ref-liang3">[2] 梁灿彬. 微分几何入门与广义相对论: 下册. 2 版. 北京: 科学出版社, 2009.</div>
+- <div id="ref-Thiemann2007">[3] Thiemann T. Cambridge monographs on mathematical physics: Modern Canoni­cal Quantum General Relativity. Cambridge: Cambridge University Press, 2007. DOI: <a href="http://doi.org/10.1017/CBO9780511755682">10.1017/CBO9780511755682</a>.</div>

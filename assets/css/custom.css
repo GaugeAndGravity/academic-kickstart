@@ -86,3 +86,12 @@ tr:last-child td:last-child {
 	top: 30%;
 	width: 20%;
 }
+
+.inlinemath{
+	display: inline;
+	margin: 0pt;
+}
+
+.displaymath{
+	display: block;
+}

@@ -1,6 +1,6 @@
 ---
-title: 圈量子引力一
-summary: 正则引力
+title: 圈量子引力1.1-1.2
+summary: ADM形式
 tags:
 - lqg
 date: "2019-08-21T00:00:00Z"
@@ -33,11 +33,11 @@ profile: false
 slides: ""
 ---
 
-## 正则引力
+## Chapter-1 正则引力
 
-本文是圈量子系列笔记的第一章，介绍正则引力理论。
+本章是圈量子系列笔记的第一章，介绍正则引力理论。
 
-### ADM 形式
+### 1.1 ADM 形式
 
 为了研究时间演化及对引力进行量子化，我们需要考虑广义相对论的哈密顿描述。我们主要依照文献 [[1](#ref-wald1989),[2](#ref-liang3),[3](#ref-Thiemann2007)] 展开。在拉格朗日描述下，考虑 $n$ 维光滑可定向流形 $M$ ，记 $M$ 上的洛伦兹度规的集合为 $\mathrm{Lor}(M)$， 由于微分同胚不变性的规范对称性，广义相对论的位型空间为 ${\mathcal{S}(M)} := {\mathrm{Lor}(M)}/{\mathrm{Diff}(M)}$。理论的拉氏量为
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathbf{\mathscr{L}}_{\text{EH}}[j^2 g] := \frac{1}{2\kappa} \mathcal{R}(j^2 g) \mathbf{\varepsilon},\\\\">
@@ -135,6 +135,20 @@ $$
 又因
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=H = \frac{1}{2\kappa} \left( C(N) %2B V(\mathbf{N}) \right),\\\\">
 知 $H,C,V$ 两两泊松括号弱等于零（在约束面上为零），并且是约束的线性组合，故 ADM 形式的广义相对论是第一类约束系统。
+
+### 1.2 Quantum Geometrodynamics(QGD)
+
+接下来对上一节得到的广义相对论的哈密顿表述进行正则量子化，得到量子几何动力学（Quantum Geometrodynamics）。但由于体现规范对称性的两个第一类约束的存在，我们需要先介绍这样的约束系统的量子化方法。
+
+第一类约束哈密顿系统的量子化最早由狄拉克发展\cite{dirac2001lectures}，其核心是先连同规范自由度一起量子化得到 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{H}_{\text{kin}}">，然后将经典约束方程 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\{ C_I = 0 \}_{I \in \mathcal{I}}"> 变为物理状态应满足的方程 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ \hat{C}_I \left|\psi\right\rangle = 0 \right\}_{I \in \mathcal{I}}">，即定义物理态空间 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{H}_{\text{phy}}"> 是所有 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{ker}\, \hat{C}_I"> 之交。
+
+对于 ADM 形式的广义相对论来说，$N$ 和 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=N_a"> 只是拉氏乘子，位型变量为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}">，即空间几何的动力学。可选择 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{H}_{\text{kin}}"> 为某种 “<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=L^2(\mathrm{Riem}{\mathcal{S}})">”，其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{Riem}{\mathcal{S}}"> 表示 $\mathcal{S}$ 上黎曼度规的集合，并采用标准的 Schrödinger 表示
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\begin{align}\hat{h}_{ab} \left|\psi\right\rangle %26\leftrightarrow h_{ab} \psi(h),\\%20\hat{\pi}^{ab} \left|\psi\right\rangle %26 \leftrightarrow - \mathrm{i} \hbar \frac{\delta}{\delta%20h_{ab}} \psi(h).\end{align}\\\\">
+$V^a \left|\psi\right\rangle =0$ 定义了空间微分同胚不变的态空间 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{H}_{\text{Diff}}">，再通过哈密顿约束
+<img class=displaymath id="eq-WDeq" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\hat{C} \left|\psi\right\rangle =0\tag{6}\\\\">
+得到物理态空间。这便是量子几何动力学，方程 [(6)](#eq-WDeq) 即为著名的 Wheeler DeWitt 方程。
+
+但这一方法存在很多问题，例如一开始 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{H}_{\text{kin}}"> 就难以定义；在标准 Schrödinger 表示下 $\hat{C}$ 是否是定义良好的算符也不清楚。当经典层面已经有了高度对称性约化，例如宇宙学的情况下，才能很好地使用 Wheeler DeWitt 方程。
 
 ## 参考文献
 

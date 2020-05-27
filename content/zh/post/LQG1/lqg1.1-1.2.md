@@ -155,3 +155,4 @@ $V^a \left|\psi\right\rangle =0$ 定义了空间微分同胚不变的态空间 <
 - <div id="ref-wald1989">[1] Wald R M. General relativity. Chicago: The University of Chicago Press, 1989.</div>
 - <div id="ref-liang3">[2] 梁灿彬. 微分几何入门与广义相对论: 下册. 2 版. 北京: 科学出版社, 2009.</div>
 - <div id="ref-Thiemann2007">[3] Thiemann T. Cambridge monographs on mathematical physics: Modern Canoni­cal Quantum General Relativity. Cambridge: Cambridge University Press, 2007. DOI: <a href="http://doi.org/10.1017/CBO9780511755682">10.1017/CBO9780511755682</a>.</div>
+- <div id="ref-Thiemann2007">[4] P.A.M.Dirac. Belfer graduate school of science, monograph series: Lectures on quantum mechanics. Dover Publications, 2001. <a href="https://books.google.com.hk/books?id=GVwzb1rZW9kC">https://books.google.com.hk/books?id=GVwzb1rZW9kC</a>.</div>

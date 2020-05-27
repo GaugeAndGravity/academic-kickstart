@@ -71,7 +71,7 @@ $$
 [^1]: 我们之后不区分 ${\mathcal{S}}$ 上的张量和将它拖回到 $M$ 上得到的 $M$ 上的空间张量。
 
 考虑 $g$ 的 $3+1$ 分解。我们记 $n_a$ 是单位法余矢场，即 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n^a n_a = -1">，则可以验证
-<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=h_{ab} := g_{ab} + n_a n_b\\\\">
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=h_{ab} := g_{ab} %2B n_a n_b\\\\">
 是空间对称张量，且它是 $g$ 在 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}\!{{\mathcal{S}}_t}"> 上的限制，我们称其为 $g$ 所诱导的空间度规，这是我们引入的第一个空间量。再考虑“时间部分”，我们引入矢量场
 $$
 t^a := \left( \pi \circ \phi \right)^* \left( \frac{\partial}{\partial t} \right)^a,
@@ -107,21 +107,21 @@ $$
 还需定义空间量的时间导数，沿 $t^a$ 的李导数是好的候选者，但空间张量的李导数未必还是空间张量，为此定义 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathcal{L}}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}"> 为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{L}_{v} T^{a\cdots}_{\phantom{a\cdots}b\cdots}"> 的空间投影，即
 <img class=displaymath id="eq-spaceLd" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathcal{L}}_{v} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} := {h}^{a_1}_{\phantom{a_1}c_1} \cdots {h}^{a_k}_{\phantom{a_1}c_k} {h}^{d_1}_{\phantom{d_1}b_1} \cdots {h}^{d_l}_{\phantom{d_l}b_l} \mathcal{L}_{v} {T}^{c_1 \cdots c_k}_{\phantom{c_1 \cdots c_k}d_1 \cdots d_l},\\\\">
 然后即可定义
-<img class=displaymath id="eq-timedot" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex={\dot{T}}^{a_1 \cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} := \tilde{\mathcal{L}}_{t} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} = N \tilde{\mathcal{L}}_{n} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} + \tilde{\mathcal{L}}_{N} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l},\\\\">
+<img class=displaymath id="eq-timedot" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex={\dot{T}}^{a_1 \cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} := \tilde{\mathcal{L}}_{t} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} = N \tilde{\mathcal{L}}_{n} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l} %2B \tilde{\mathcal{L}}_{N} T^{a_1\cdots a_k}_{\phantom{a_1 \cdots a_k}b_1 \cdots b_l},\\\\">
 则得到
-<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\dot{h}_{ab} = 2N K_{ab} + 2 D_{{(a}} {N}_{b)},\\\\">
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\dot{h}_{ab} = 2N K_{ab} %2B 2 D_{{(a}} {N}_{b)},\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=D_{a}"> 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 上与 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 相容的联络。
 
 现在，我们把 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathscr{L}}_{\text{EH}} = \frac{1}{2\kappa} \sqrt{- \det g} \mathcal{R}"> 用空间量表示。需要借助 Gauss 方程
 <img class=displaymath id="eq-gauss" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}_{abc}^{\phantom{abc}d} = {h}_a^{\phantom{a}k} {h}_b^{\phantom{b}l} {h}_c^{\phantom{c}m} {h}_n^{\phantom{n}d} \mathcal{R}_{klm}^{\phantom{klm}n} - 2 {K}{_{c[a}} {K}_{b]}^{\phantom{b]}d},\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}_{abc}^{\phantom{abc}d}"> 是3维流形 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\mathcal{S}}_t"> 上空间度规 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 对应的曲率；<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={T}_{[\cdots]}"> 表示对张量 $T$ 反称化。略去所有计算过程，我们得到
-<img class=displaymath id="eq-L_split" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathscr{L}} = \frac{1}{2\kappa} \sqrt{h} N \left( \mathcal{R} - K^2 + K_{ab} {K}^{ab} \right),\tag{3}">
+<img class=displaymath id="eq-L_split" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\tilde{\mathscr{L}} = \frac{1}{2\kappa} \sqrt{h} N \left( \mathcal{R} - K^2 %2B K_{ab} {K}^{ab} \right),\tag{3}">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h"> 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 的分量矩阵的行列式， <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{R}"> 是 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathcal{S}_t"> 上的标量曲率，由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 及其二阶空间导数确定，而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K_{ab}"> 通过
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=K_{ab} = \frac{1}{2N} \left( {\dot{h}}_{ab} - 2 {D}_{(a} {N}_{b)} \right)\\\\">
 由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\dot{h}}_{ab}, N, n_a, D_{a}"> 决定，并有 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K = h^{ab} K_{ab}">。这说明 [3](#eq-L_split) 的确是位型变量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 及其时间导数及空间导数的函数。可求得共轭动量
 <img class=displaymath id="eq-constrain12" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\pi_N=\frac{\partial\tilde{\mathscr{L}}}{\partial\dot{N}}=0,\quad\pi^a=\frac{\partial\tilde{\mathscr{L}}}{\partial\dot{N}_a}=0,\tag{4}%20\\%20\pi^{ab} = \frac{\partial\tilde{\mathscr{L}}}{\partial {\dot{h}}_{ab}} = \frac{1}{2\kappa} \sqrt{h} \left( K^{ab} - K h^{ab} \right),\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\pi_{N}">, $\pi^a$, $\pi^{ab}$ 分别是与 $N$, <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n_a">, <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 共轭的动量。[(4)](#eq-constrain12) 给出两个初级约束。去掉一些边界项后，有哈密顿量
-<img class=displaymath id="eq-ADM_H" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=H[N,n_a, h_{ab}, \pi^{ab}] = \frac{1}{2\kappa} \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} \left( N C %2B n_a V^a \right),\\\\">
+<img class=displaymath id="eq-ADM_H" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=H[N,n_a, h_{ab}, \pi^{ab}] = \frac{1}{2\kappa} \int_{{\mathcal{S}}} \,\mathrm{d}^3{x} \left( N C %2B n_a V^a \right),\\\\">
 其中
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=C := - \frac{\sqrt{h}}{2\kappa} \mathcal{R} %2B \frac{2\kappa}{\sqrt{h}} \left( \pi_{ab} \pi^{ab} - \frac{1}{2} \pi^2 \right),\\V^a := -2 D_{b} \pi^{ab}.\\\\">
 对 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=N">，<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n_a"> 变分给出两个次级约束，称为标量约束和矢量约束
@@ -129,7 +129,7 @@ $$
 可以证明 [(4)](#eq-constrain12), [(5)](#eq-constrain34) 已经穷尽了所有约束。
 
 定义smeared 约束
-<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=C(f) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} C f  ,\quad V ({v}) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} V_a v^a,\\\\">
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=C(f) := \int_{{\mathcal{S}}} \,\mathrm{d}^3{x} C f  ,\quad V ({v}) := \int_{{\mathcal{S}}} \,\mathrm{d}^3{x} V_a v^a,\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=f\in C^\infty({\mathcal{S}}), v\in \Gamma(\mathrm{T}\!{{\mathcal{S}}})"> 满足适当的边界条件，可以算得泊松括号
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\begin{align}\left\{V({u}),V({v})\right\}%26=2\kappa%20V(\mathcal{L}_{{u}}%20{v}),\\%20\left\{V({v}),C(f)\right\}%26=2\kappa%20C(v(f)),\\%20\left\{C(f),C(f')\right\}%26=2\kappa%20V(fD^af'-f'D^af),\end{align}\\\\">
 又因

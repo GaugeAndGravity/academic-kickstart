@@ -121,36 +121,19 @@ $$
 由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex={\dot{h}}_{ab}, N, n_a, D_{a}"> 决定，并有 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=K = h^{ab} K_{ab}">。这说明 [3](#eq-L_split) 的确是位型变量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 及其时间导数及空间导数的函数。可求得共轭动量
 <img class=displaymath id="eq-constrain12" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\pi_N=\frac{\partial\tilde{\mathscr{L}}}{\partial\dot{N}}=0,\quad\pi^a=\frac{\partial\tilde{\mathscr{L}}}{\partial\dot{N}_a}=0,\tag{4}%20\\%20\pi^{ab} = \frac{\partial\tilde{\mathscr{L}}}{\partial {\dot{h}}_{ab}} = \frac{1}{2\kappa} \sqrt{h} \left( K^{ab} - K h^{ab} \right),\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\pi_{N}">, $\pi^a$, $\pi^{ab}$ 分别是与 $N$, <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n_a">, <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 共轭的动量。[(4)](#eq-constrain12) 给出两个初级约束。去掉一些边界项后，有哈密顿量
-$$
-H[N,n_a, h_{ab}, \pi^{ab}] = \frac{1}{2\kappa} \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} \left( N C + n_a V^a \right), %\label{eq-ADM_H}
-$$
+<img class=displaymath id="eq-ADM_H" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=H[N,n_a, h_{ab}, \pi^{ab}] = \frac{1}{2\kappa} \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} \left( N C %2B n_a V^a \right),\\\\">
 其中
-$$
-C := - \frac{\sqrt{h}}{2\kappa} \mathcal{R} + \frac{2\kappa}{\sqrt{h}} \left( \pi_{ab} \pi^{ab} - \frac{1}{2} \pi^2 \right),\\
-V^a := -2 D_{b} \pi^{ab}.
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=C := - \frac{\sqrt{h}}{2\kappa} \mathcal{R} %2B \frac{2\kappa}{\sqrt{h}} \left( \pi_{ab} \pi^{ab} - \frac{1}{2} \pi^2 \right),\\V^a := -2 D_{b} \pi^{ab}.\\\\">
 对 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=N">，<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n_a"> 变分给出两个次级约束，称为标量约束和矢量约束
-$$
-C = 0 ,\quad V^a = 0, %\label{eq-constrain34}
-$$
-可以证明 \eqref{eq-constrain12}, \eqref{eq-constrain34}已经穷尽了所有约束。
+<img class=displaymath id="eq-constrain34" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=C = 0 ,\quad V^a = 0,\tag{5}\\\\">
+可以证明 [(4)](#eq-constrain12), [(5)](#eq-constrain34) 已经穷尽了所有约束。
 
 定义smeared 约束
-$$
-C(f) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} C f  ,\quad V ({v}) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} V_a v^a,
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=C(f) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} C f  ,\quad V ({v}) := \int_{{\mathcal{S}}} \,\mathrm{d}[3]{x} V_a v^a,\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=f\in C^\infty({\mathcal{S}}), v\in \Gamma(\mathrm{T}\!{{\mathcal{S}}})"> 满足适当的边界条件，可以算得泊松括号
-$$
-\begin{aligned}
-\left\{ V({u}), V({v}) \right\} &= 2\kappa V(\mathcal{L}_{{u}} {v}),\\
-\left\{ V({v}), C(f) \right\} &= 2\kappa C(v(f)),\\
-\left\{ C(f), C(f') \right\} &= 2\kappa V(fD^af'-f' D^af),
-\end{aligned}
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\begin{align}\left\{V({u}),V({v})\right\}%26=2\kappa%20V(\mathcal{L}_{{u}}%20{v}),\\%20\left\{V({v}),C(f)\right\}%26=2\kappa%20C(v(f)),\\%20\left\{C(f),C(f')\right\}%26=2\kappa%20V(fD^af'-f'D^af),\end{align}\\\\">
 又因
-$$
-H = \frac{1}{2\kappa} \left( C(N) + V(\mathbf{N}) \right),
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=H = \frac{1}{2\kappa} \left( C(N) %2B V(\mathbf{N}) \right),\\\\">
 知 $H,C,V$ 两两泊松括号弱等于零（在约束面上为零），并且是约束的线性组合，故 ADM 形式的广义相对论是第一类约束系统。
 
 ## 参考文献

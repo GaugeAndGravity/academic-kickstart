@@ -60,8 +60,8 @@ Ric - \frac{1}{2} \mathcal{R} g = 0,
 $$
 
 或采取抽象指标形式，写作
-<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=R_{ab} - \frac{1}{2} \mathcal{R} g_{ab}^{} = 0.\\\\">
-以下张量全部采用抽象指标记号，改用 $g_{ab}^{}$ 表示度规张量，而 $g$ 表示其行列式。
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=R_{ab} - \frac{1}{2} \mathcal{R} g_{ab}^{\phantom{a}} = 0.\\\\">
+以下张量全部采用抽象指标记号，改用 $g_{ab}^{\phantom{a}}$ 表示度规张量，而 $g$ 表示其行列式。
 
 现在考虑哈密顿描述，这要求我们把时间从时空中分离出来。
 设时空 $\left( M, g \right)$ 整体双曲，则对时空有拓扑上的要求： $M \cong \mathbb{R} \times {\mathcal{S}}$，其中 ${\mathcal{S}}$ 是 $3$ 维流形[<sup>[1]</sup>](#ref-wald1989)。设有微分同胚 $\phi \colon M \rightarrow \mathbb{R} \times {\mathcal{S}}$，称为一个分层（foliation）。注意到任取 $\psi \in {\mathrm{Diff}(M)}$，$\phi \circ \psi$ 依然是分层，分层的集合与 ${\mathrm{Diff}(M)}$ 一一对应。记
@@ -71,7 +71,7 @@ $$
 [^1]: 我们之后不区分 ${\mathcal{S}}$ 上的张量和将它拖回到 $M$ 上得到的 $M$ 上的空间张量。
 
 考虑 $g$ 的 $3+1$ 分解。我们记 $n_a$ 是单位法余矢场，即 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=n^a n_a = -1">，则可以验证
-<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=h_{ab} := g_{ab}^{} %2B n_a n_b\\\\">
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=h_{ab} := g_{ab}^{\phantom{a}} %2B n_a n_b\\\\">
 是空间对称张量，且它是 $g$ 在 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}\!{{\mathcal{S}}_t}"> 上的限制，我们称其为 $g$ 所诱导的空间度规，这是我们引入的第一个空间量。再考虑“时间部分”，我们引入矢量场
 $$
 t^a := \left( \pi \circ \phi \right)^* \left( \frac{\partial}{\partial t} \right)^a,
@@ -83,7 +83,7 @@ $t^a$ 的积分曲线汇（作为观测者世界线）标志了在微分同胚 $
 称 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=N"/> 为时移函数（lapse function），<img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=N^a"> 为位移矢量（shift vector）场，这是我们引入的第2、3个空间量。由 [(1)](#eqt) 容易算得
 <img class=displaymath id="eqn" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=n_a = - N \nabla_{a} t.\\\\">
 
-现在我们来说明，给定 $\phi$，即有了 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ {\mathcal{S}}_t \right\}">、$t$ 和 $t^a$ 的条件下，空间量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 和 时空量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}^{}"> 互相确定，因而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 可以作为位型变量。由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}^{}"> 给出 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 的过程已经在上面写出，而给定 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 后，首先将空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 视作 ${\mathcal{S}}$ 上的度量张量，取逆再拖回到 $M$ 上得空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}">。由 [(2)](#eqtsplit) 知
+现在我们来说明，给定 $\phi$，即有了 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ {\mathcal{S}}_t \right\}">、$t$ 和 $t^a$ 的条件下，空间量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 和 时空量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}^{\phantom{a}}"> 互相确定，因而 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 可以作为位型变量。由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=g_{ab}^{\phantom{a}}"> 给出 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 的过程已经在上面写出，而给定 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left( h_{ab} , N, n_a \right)"> 后，首先将空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}"> 视作 ${\mathcal{S}}$ 上的度量张量，取逆再拖回到 $M$ 上得空间张量 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=h_{ab}">。由 [(2)](#eqtsplit) 知
 $$
 n^a = \frac{1}{N} \left( t^a - n^a \right),
 $$

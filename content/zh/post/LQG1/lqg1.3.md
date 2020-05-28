@@ -47,7 +47,7 @@ Palatini作用量是 Hilbert 作用量的改写，在流形上引入标架来替
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=g_{ab}^{\phantom{a}} = \eta_{IJ}^{\phantom{a}} e^{I}_{\phantom{I}a} e^J_{\phantom{J}b},\\\\">
 则称标架场是正交归一的。
 
-我们可以选择 $V$ 上的基底 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ \xi^I_{\phantom{I}\mu} \right\}"> 及其对偶基 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ \xi^\mu_{\phantom{\mu}I} \right\}">，其中 $\mu=0,1,2,3$，使得 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\eta_{IJ}^{\phantom{a}} := \eta_{\mu\nu}^{\phantom{a}} \xi^\mu_{\phantom{\mu}I} {\xi}^\nu_{\phantom{\nu}J} = -\xi^0_{\phantom{0}I} \xi^0_{\phantom{0}J} + \sum_i \xi^i_{\phantom{i}I} \xi^i_{\phantom{i}J}">，其中 $i=1,2,3$，并定义
+我们可以选择 $V$ 上的基底 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ \xi^I_{\phantom{I}\mu} \right\}"> 及其对偶基 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ \xi^\mu_{\phantom{\mu}I} \right\}">，其中 $\mu=0,1,2,3$，使得 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\eta_{IJ}^{\phantom{a}} := \eta_{\mu\nu}^{\phantom{a}} \xi^\mu_{\phantom{\mu}I} {\xi}^\nu_{\phantom{\nu}J} = -\xi^0_{\phantom{0}I} \xi^0_{\phantom{0}J} %2B \sum_i \xi^i_{\phantom{i}I} \xi^i_{\phantom{i}J}">，其中 $i=1,2,3$，并定义
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=e^{a}_{\phantom{a}\mu} := \xi^I_{\phantom{I}\mu} e^{a}_{\phantom{a}I},\\\\">
 则 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ e^{a}_{\phantom{a}\mu} \right\}"> 构成 $M$ 上每点的正交基底。
 
@@ -60,7 +60,7 @@ Palatini作用量是 Hilbert 作用量的改写，在流形上引入标架来替
 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=e^{I}_{\phantom{I}a}"> 可视为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=E \otimes \mathrm{T}^*\!{M}"> 上的截面，规定取坐标基底和截面基底 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\xi^I_{\phantom{I}\mu}"> 下分量定义偏导算符，而协变导数通过满足莱布尼兹律的方式推广到各种张量积丛，有
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a} v^I = e^I_{\phantom{I}b} \nabla_{a} v^b %2B v^b \nabla_{a} e^I_{\phantom{I}b},\\\\">
 由 [(1)](#eq-spin_connection),[(2)](#eq-ChristoffelSymbol) 可得
-<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a}^{\phantom{a}} e^I_{\phantom{I}b} = \partial_{a}^{\phantom{a}} e^I_{\phantom{I}b} - \Gamma^c_{\phantom{c}ab} e^I_{\phantom{I}c} + \omega_{a\phantom{I}J}^{\phantom{a}I} e^J_{\phantom{J}b}.\\\\">
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a}^{\phantom{a}} e^I_{\phantom{I}b} = \partial_{a}^{\phantom{a}} e^I_{\phantom{I}b} - \Gamma^c_{\phantom{c}ab} e^I_{\phantom{I}c} %2B \omega_{a\phantom{I}J}^{\phantom{a}I} e^J_{\phantom{J}b}.\\\\">
 对矢量值一形式 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=v^I_{\phantom{I}a}">，定义外微分
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathrm{d}_a^{\phantom{a}} {v^I_{\phantom{I}b}} := 2 \partial_{{[a}}^{\phantom{a}} v^I_{\phantom{I}b]} \equiv \xi^I_{\phantom{I}\mu} \mathrm{d}_a^{\phantom{a}} {v^\mu_{\phantom{\mu}b}},\\\\">
 以及协变外微分
@@ -68,7 +68,7 @@ Palatini作用量是 Hilbert 作用量的改写，在流形上引入标架来替
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\omega_{a\phantom{I}J}^{\phantom{a}I}\wedge%20v^J_{\phantom{J}b} := 2 \omega_{[a\phantom{I}|J|}^{\phantom{[a}I} v^J_{\phantom{J}b]}">。定义挠率形式为
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=T^I_{\phantom{I}ab} := D_a^{\phantom{a}} e^I_{\phantom{I}b} = \mathrm{d}_a^{\phantom{a}} e^I_{\phantom{I}b} %2B \omega_{a\phantom{I}J}^{\phantom{a}I} \wedge e^J_{\phantom{J}b},\\\\">
 及曲率二形式
-<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=F_{abI}^{\phantom{abI}J} := 2D_{[a}^{\phantom{a}} \omega_{b]I}^{\phantom{b]I}J} = \mathrm{d}_a^{\phantom{a}} \omega_{bI}^{\phantom{bI}J} + \omega_{aI}^{\phantom{aI}K} \wedge \omega_{bJ}^{\phantom{bJ}K}.\\\\">
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=F_{abI}^{\phantom{abI}J} := 2D_{[a}^{\phantom{a}} \omega_{b]I}^{\phantom{b]I}J} = \mathrm{d}_a^{\phantom{a}} \omega_{bI}^{\phantom{bI}J} %2B \omega_{aI}^{\phantom{aI}K} \wedge \omega_{bJ}^{\phantom{bJ}K}.\\\\">
 
 定义 Palatini作用量
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=S_{\text{Palatini}}[e,\omega] := \frac{1}{4\kappa} \int_M \varepsilon_{IJKL}^{\phantom{a}} e^{I}_{\phantom{I}a} \wedge e^J_{\phantom{J}b} \wedge {F}_{cd}^{\phantom{cd}KL},\\\\">

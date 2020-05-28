@@ -54,58 +54,34 @@ Palatini作用量是 Hilbert 作用量的改写，在流形上引入标架来替
 正交归一标架丛 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{F}\!{M}"> 上的联络等价于其伴丛上的联络。将 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\xi^I_{\phantom{I}\mu}"> 视为 $\mathrm{SO}(3,1)$ 矢量丛 $E = M \times V$ 上截面的基底，将任意截面展开为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=v^I = v^\mu \xi^I_{\phantom{I}\mu}">，定义标准平直联络
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\partial_{a}^{} v^I := \left( \partial_{a}^{} v^\mu \right) \xi^I_{\phantom{I}\mu},\\\\">
 任何联络（或称协变导数）可表为
-<img class=displaymath id="eq-spin_connection" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a}^{}v^I = \partial_{a}^{} v^I + \omega_{a\phantom{I}J}^{\phantom{a}I} v^J,\\\\">
+<img class=displaymath id="eq-spin_connection" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a}^{}v^I = \partial_{a}^{} v^I %2B \omega_{a\phantom{I}J}^{\phantom{a}I} v^J,\tag{1}\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\omega_{a\phantom{I}J}^{\phantom{a}I}"> 是 $\mathrm{so}(3,1)$ 值一形式，称为 spin connection。设 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}\!{M}"> 上的联络为
-$$
-\nabla_{a}^{} v^b = \partial_{a}^{} v^b + \Gamma^b_{\phantom{b}ac} v^c,%\label{eq-ChristoffelSymbol}
-$$
+<img class=displaymath id="eq-ChristoffelSymbol" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a}^{} v^b = \partial_{a}^{} v^b %2B \Gamma^b_{\phantom{b}ac} v^c,\tag{2}\\\\">
 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=e^{I}_{\phantom{I}a}"> 可视为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=E \otimes \mathrm{T}^*\!{M}"> 上的截面，规定取坐标基底和截面基底 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\xi^I_{\phantom{I}\mu}"> 下分量定义偏导算符，而协变导数通过满足莱布尼兹律的方式推广到各种张量积丛，有
-$$
-\nabla_{a} v^I = e^I_{\phantom{I}b} \nabla_{a} v^b + v^b \nabla_{a} e^I_{\phantom{I}b},
-$$
-由~\eqref{eq-spin_connection},\eqref{eq-ChristoffelSymbol} 可得
-$$
-\nabla_{a}^{} e^I_{\phantom{I}b} = \partial_{a}^{} e^I_{\phantom{I}b} - \Gamma^c_{\phantom{c}ab} e^I_{\phantom{I}c} + \omega_{a\phantom{I}J}^{\phantom{a}I} e^J_{\phantom{J}b}.
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a} v^I = e^I_{\phantom{I}b} \nabla_{a} v^b %2B v^b \nabla_{a} e^I_{\phantom{I}b},\\\\">
+由 [(1)](#eq-spin_connection),[(2)](#eq-ChristoffelSymbol) 可得
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a}^{} e^I_{\phantom{I}b} = \partial_{a}^{} e^I_{\phantom{I}b} - \Gamma^c_{\phantom{c}ab} e^I_{\phantom{I}c} + \omega_{a\phantom{I}J}^{\phantom{a}I} e^J_{\phantom{J}b}.\\\\">
 对矢量值一形式 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=v^I_{\phantom{I}a}">，定义外微分
-$$
-\mathrm{d}_a^{} {v^I_{\phantom{I}b}} := 2 \partial_{{[a}}^{} v^I_{\phantom{I}b]} \equiv \xi^I_{\phantom{I}\mu} \mathrm{d}_a^{} {v^\mu_{\phantom{\mu}b}},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\mathrm{d}_a^{} {v^I_{\phantom{I}b}} := 2 \partial_{{[a}}^{} v^I_{\phantom{I}b]} \equiv \xi^I_{\phantom{I}\mu} \mathrm{d}_a^{} {v^\mu_{\phantom{\mu}b}},\\\\">
 以及协变外微分
-$$
-D_a^{} v^I_{\phantom{I}b} := 2 \nabla_{{[a}}^{} v^I_{\phantom{I}b]} \equiv \mathrm{d}_a^{} v^I_{\phantom{I}a} + \omega_{a\phantom{I}J}^{\phantom{a}I} \wedge v^J_{\phantom{J}b},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=D_a^{}v^I_{\phantom{I}b}:=2\nabla_{{[a}}^{}v^I_{\phantom{I}b]}\equiv\mathrm{d}_a^{}v^I_{\phantom{I}a}%2B%20\omega_{a\phantom{I}J}^{\phantom{a}I}\wedge v^J_{\phantom{J}b},\\\\">
 其中 $\omega_{a\phantom{I}J}^{\phantom{a}I} \wedge v^J_{\phantom{J}b} := 2 \omega_{[a\phantom{I}|J|}^{\phantom{[a}I} v^J_{\phantom{J}b]}$。定义挠率形式为
-$$
-T^I_{\phantom{I}ab} := D_a^{} e^I_{\phantom{I}b} = \mathrm{d}_a^{} e^I_{\phantom{I}b} + \omega_{a\phantom{I}J}^{\phantom{a}I} \wedge e^J_{\phantom{J}b},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=T^I_{\phantom{I}ab} := D_a^{} e^I_{\phantom{I}b} = \mathrm{d}_a^{} e^I_{\phantom{I}b} %2B \omega_{a\phantom{I}J}^{\phantom{a}I} \wedge e^J_{\phantom{J}b},\\\\">
 及曲率二形式
-$$
-F_{abI}^{\phantom{abI}J} := 2D_{[a}^{} \omega_{b]I}^{\phantom{b]I}J} = \mathrm{d}_a^{} \omega_{bI}^{\phantom{bI}J} + \omega_{aI}^{\phantom{aI}K} \wedge \omega_{bJ}^{\phantom{bJ}K}.
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=F_{abI}^{\phantom{abI}J} := 2D_{[a}^{} \omega_{b]I}^{\phantom{b]I}J} = \mathrm{d}_a^{} \omega_{bI}^{\phantom{bI}J} + \omega_{aI}^{\phantom{aI}K} \wedge \omega_{bJ}^{\phantom{bJ}K}.\\\\">
 
 定义 Palatini作用量
-$$
-S_{\text{Palatini}}[e,\omega] := \frac{1}{4\kappa} \int_M \varepsilon_{IJKL}^{} e^{I}_{\phantom{I}a} \wedge e^J_{\phantom{J}b} \wedge {F}_{cd}^{\phantom{cd}KL},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=S_{\text{Palatini}}[e,\omega] := \frac{1}{4\kappa} \int_M \varepsilon_{IJKL}^{} e^{I}_{\phantom{I}a} \wedge e^J_{\phantom{J}b} \wedge {F}_{cd}^{\phantom{cd}KL},\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\varepsilon_{IJKL}^{}"> 是 $V$ 上与 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\eta_{IJ}^{}"> 适配的体元。对 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\omega_{a\phantom{I}J}^{\phantom{a}I}"> 变分可得
-$$
-D_a^{} e^I_{\phantom{I}b} = 0,
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=D_a^{}e^I_{\phantom{I}b}=0,\\\\">
 此运动方程即要求联络无挠，此条件由 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=e^{I}_{\phantom{I}a}"> 唯一确定了相容联络 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\omega_{a\phantom{I}J}^{\phantom{a}I}">。当无挠条件满足时，容易验证 Palatini 作用量变回 Hilbert-Einstein 作用量
-$$
-S_{\text{Palatini}}[e,\omega(e)] = \frac{1}{2\kappa}\int_M R[e],
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=S_{\text{Palatini}}[e,\omega(e)] = \frac{1}{2\kappa}\int_M R[e],\\\\">
 其中
-$$
-R[e] = R[g(e)] = F_{ab}^{\phantom{ab}IJ} e^{a}_{\phantom{a}I} e^b_{\phantom{b}J},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=R[e] = R[g(e)] = F_{ab}^{\phantom{ab}IJ} e^{a}_{\phantom{a}I} e^b_{\phantom{b}J},\\\\">
 故无需详细计算即知对 $e$ 变分可得 Einstein 场方程。
 
 注意到 Palatini 作用量引入了一个 $\mathrm{SO}(3,1)$ 局域规范对称性
-$$
-\left( e^{I}_{\phantom{I}a}, \omega_{a\phantom{I}J}^{\phantom{a}I} \right) \mapsto \left( \Lambda_J^{\phantom{J}I} e^J_{\phantom{J}a}, \Lambda_K^{\phantom{K}I} \omega_{a\phantom{K}L}^{\phantom{a}K} \Lambda^L_{\phantom{L}J} + \Lambda_K^{\phantom{K}I} \mathrm{d}_a^{} \Lambda_K^{\phantom{K}J} \right),
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\left( e^{I}_{\phantom{I}a}, \omega_{a\phantom{I}J}^{\phantom{a}I} \right) \mapsto \left( \Lambda_J^{\phantom{J}I} e^J_{\phantom{J}a}, \Lambda_K^{\phantom{K}I} \omega_{a\phantom{K}L}^{\phantom{a}K} \Lambda^L_{\phantom{L}J} %2B \Lambda_K^{\phantom{K}I} \mathrm{d}_a^{} \Lambda_K^{\phantom{K}J} \right),\\\\">
 或更紧凑地写为
 $$
 (e,\omega) \mapsto \left( \Lambda^{-1} e, \Lambda^{-1} \omega \Lambda + \Lambda^{-1} \,\mathrm{d}{\Lambda} \right),
@@ -113,12 +89,7 @@ $$
 这引入一个第二类约束。
 
 在圈量子引力中十分重要的是 Palatini 作用量的 Holst 修正
-$$
-\begin{aligned}
-S_{\text{Holst}} &:= S_{\text{Palatini}} - \frac{1}{2\kappa} \int_M \frac{1}{\beta} e^{I}_{\phantom{I}a} \wedge e^J_{\phantom{J}b} \wedge F_{cdIJ}^{}\\
-&= - \frac{1}{2\kappa} \int_M \,\mathrm{tr}\left[\left( *\left( e \wedge e \right) + \frac{1}{\beta} \left( e \wedge e \right) \right) \wedge F\right],%\label{eq-Holst_action}
-\end{aligned}
-$$
+<img class=displaymath id="eq-Holst_action" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\begin{aligned}S_{\text{Holst}}%26:=S_{\text{Palatini}} - \frac{1}{2\kappa} \int_M \frac{1}{\beta} e^{I}_{\phantom{I}a} \wedge e^J_{\phantom{J}b} \wedge F_{cdIJ}^{}\\%26= - \frac{1}{2\kappa} \int_M \,\mathrm{tr}\left[\left( *\left( e \wedge e \right) + \frac{1}{\beta} \left( e \wedge e \right) \right) \wedge F\right],\end{aligned}\\\\">
 容易验证后一项是拓扑项，不改变运动方程。$\beta$ 称为 Barbero-Immiriz 参数。
 
 ## 参考文献

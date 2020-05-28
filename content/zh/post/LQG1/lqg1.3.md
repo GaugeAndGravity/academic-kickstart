@@ -89,7 +89,7 @@ $$
 这引入一个第二类约束。
 
 在圈量子引力中十分重要的是 Palatini 作用量的 Holst 修正
-<img class=displaymath id="eq-Holst_action" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\begin{aligned}S_{\text{Holst}}%26:=S_{\text{Palatini}} - \frac{1}{2\kappa} \int_M \frac{1}{\beta} e^{I}_{\phantom{I}a} \wedge e^J_{\phantom{J}b} \wedge F_{cdIJ}^{}\\%26= - \frac{1}{2\kappa} \int_M \,\mathrm{tr}\left[\left( *\left( e \wedge e \right) + \frac{1}{\beta} \left( e \wedge e \right) \right) \wedge F\right],\end{aligned}\\\\">
+<img class=displaymath id="eq-Holst_action" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\begin{aligned}S_{\text{Holst}}%26:=S_{\text{Palatini}} - \frac{1}{2\kappa} \int_M \frac{1}{\beta} e^{I}_{\phantom{I}a} \wedge e^J_{\phantom{J}b} \wedge F_{cdIJ}^{}\\%26= - \frac{1}{2\kappa} \int_M \,\mathrm{tr}\left[\left( *\left( e \wedge e \right) %2B \frac{1}{\beta} \left( e \wedge e \right) \right) \wedge F\right],\end{aligned}\\\\">
 容易验证后一项是拓扑项，不改变运动方程。$\beta$ 称为 Barbero-Immiriz 参数。
 
 ## 参考文献

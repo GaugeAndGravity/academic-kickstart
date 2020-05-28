@@ -44,25 +44,17 @@ Palatini作用量是 Hilbert 作用量的改写，在流形上引入标架来替
 设 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left(V,\eta_{IJ}^{}\right)"> 是一个带有选定洛伦兹度规的四维矢量空间，称为内部空间（internal space），其中 $I,J,\cdots$ 是 $V$ 上的抽象指标，以与 $M$ 上的区分。我们考虑 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}\!{M}"> 的平凡化，设有矢量丛同构 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=e\colon%20M\times%20V\rightarrow\mathrm{T}_{x}{M}">，$e(x) := e(x,\cdot)$ 是从 $V$ 到 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}_{x}{M}"> 的线性同构。按照抽象指标记号，将它记为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=e^{a}_{\phantom{a}I}(x)">，称为 $M$ 上的标架场（frame field，4维情况又特别地称为tetrads）。逐点取逆得到丛同构 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=e^{-1}\colon\mathrm{T}\!{M}\rightarrow%20M\times%20V">，$e^{-1}(x) := e^{-1}(x,\cdot)$ 按照抽象指标记号写为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=e^{I}_{\phantom{I}a}(x)">，称为对偶标架场，则有
 <img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=e^{a}_{\phantom{a}I} e^I_{\phantom{I}b} = \delta^a_{\phantom{a}b} ,\quad e^{I}_{\phantom{I}a} e^{a}_{\phantom{a}J} = \delta^{I}_{\phantom{I}J}.\\\\">
 若满足
-$$
-g_{ab}^{} = \eta_{IJ}^{} e^{I}_{\phantom{I}a} e^J_{\phantom{J}b},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=g_{ab}^{} = \eta_{IJ}^{} e^{I}_{\phantom{I}a} e^J_{\phantom{J}b},\\\\">
 则称标架场是正交归一的。
 
 我们可以选择 $V$ 上的基底 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ \xi^I_{\phantom{I}\mu} \right\}"> 及其对偶基 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ \xi^\mu_{\phantom{\mu}I} \right\}">，其中 $\mu=0,1,2,3$，使得 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\eta_{IJ}^{} := \eta_{\mu\nu}^{} \xi^\mu_{\phantom{\mu}I} {\xi}^\nu_{\phantom{\nu}J} = -\xi^0_{\phantom{0}I} \xi^0_{\phantom{0}J} + \sum_i \xi^i_{\phantom{i}I} \xi^i_{\phantom{i}J}">，其中 $i=1,2,3$，并定义
-$$
-e^{a}_{\phantom{a}\mu} := \xi^I_{\phantom{I}\mu} e^{a}_{\phantom{a}I},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=e^{a}_{\phantom{a}\mu} := \xi^I_{\phantom{I}\mu} e^{a}_{\phantom{a}I},\\\\">
 则 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\left\{ e^{a}_{\phantom{a}\mu} \right\}"> 构成 $M$ 上每点的正交基底。
 
 正交归一标架丛 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{F}\!{M}"> 上的联络等价于其伴丛上的联络。将 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\xi^I_{\phantom{I}\mu}"> 视为 $\mathrm{SO}(3,1)$ 矢量丛 $E = M \times V$ 上截面的基底，将任意截面展开为 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=v^I = v^\mu \xi^I_{\phantom{I}\mu}">，定义标准平直联络
-$$
-\partial_{a}^{} v^I := \left( \partial_{a}^{} v^\mu \right) \xi^I_{\phantom{I}\mu},
-$$
+<img class=displaymath style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\partial_{a}^{} v^I := \left( \partial_{a}^{} v^\mu \right) \xi^I_{\phantom{I}\mu},\\\\">
 任何联络（或称协变导数）可表为
-$$
-\nabla_{a}^{} v^I = \partial_{a}^{} v^I + \omega_{a\phantom{I}J}^{\phantom{a}I} v^J,%%\label{eq-spin_connection}
-$$
+<img class=displaymath id="eq-spin_connection" style="margin-top:0.7em;margin-bottom:0" src="https://www.zhihu.com/equation?tex=\nabla_{a}^{}v^I = \partial_{a}^{} v^I + \omega_{a\phantom{I}J}^{\phantom{a}I} v^J,\\\\">
 其中 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\omega_{a\phantom{I}J}^{\phantom{a}I}"> 是 $\mathrm{so}(3,1)$ 值一形式，称为 spin connection。设 <img class=inlinemath style="margin:0" src="https://www.zhihu.com/equation?tex=\mathrm{T}\!{M}"> 上的联络为
 $$
 \nabla_{a}^{} v^b = \partial_{a}^{} v^b + \Gamma^b_{\phantom{b}ac} v^c,%\label{eq-ChristoffelSymbol}

@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 本科理论物理在读
+role: 理论物理本科毕业
 
 # Organizations/Affiliations
 organizations:
@@ -25,14 +25,14 @@ interests:
 - 圈量子引力
 - AdS/CFT
 - 量子场论
-# - 吉他指弹
-# - 羽毛球
-# - 书法，尤其是王羲之、赵孟頫
-# - 围棋
+- 吉他指弹
+- 羽毛球
+- 书法，最喜欢赵孟頫
+- 围棋，但很菜
 
 education:
   courses:
-  - course: 本科理论物理在读
+  - course: 理论物理本科
     institution: 中国科学技术大学
     year: 2016-2020
 

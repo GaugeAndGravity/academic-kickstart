@@ -47,7 +47,7 @@ slides: ""
 
 Abhay Ashtekar 在1986年给出了广义相对论的一组新的正则变量\cite{Ashtekar1986,Ashtekar1987}，使约束表达式得到了大幅简化，便于考虑量子引力，后来成为了圈量子引力 的基础。以下参照 \inlinecite{Ashtekar2004} 予以简单介绍，相关内容也可参考\cite{liang3,Thiemann2007,Baez1994}。
 
-从 Holst 作用量出发，我们考虑 $3+1$ 分解，其含义与之前第\ref{sec_adm}节中相同，即选择时空的分层 $\phi \colon M \rightarrow \mathbb{R} \times \spc$，将物理量分解。每点的直和分解 $\TBx[x]{M} = \Span\left\{ \tensor{n}{^a}(x) \right\} \oplus \TBx[x]{\spc}$ 被 $\tensor{e}{^I_a}$ 映为 $V = \Span\left\{ \tensor{n}{^I}(x) \right\} \oplus V_{\spc}(x)$，其中 $\tensor{n}{^I} = \tensor{e}{^I_a} \tensor{n}{^a}$。注意到法矢场 $\tensor{n}{^a}$ 仅与 $\phi$ 和 $\tensor{g}{_a_b}$ 有关，而同一个 $\tensor{g}{_a_b}$ 对应的 $\tensor{e}{^I_a}$ 还存在 $\SO{3,1}$ 规范自由度，为了方便可以部分固定规范，即固定内部矢量场 $\tensor{n}{^I}$，例如本文中取为第零基矢 $\tensor{\xi}{^I_0}$。则规范群约化为 $\SO{3}$ 。每点的 $V_{\spc}$ 同构于一固定的三维线性空间 $W$，于是在标架 $\tensor{e}{^a_I}$ 将 $\TB{M}$ 平凡化为 $E=M\times V$ 后，时空的 $3+1$ 分解又将其（局部地）直和分解为 $\left( M \times \mathbb{R} \right) \oplus \left( M \times W \right)$。用 $i,j,k,\cdots$ 作为 $W$ 上的抽象指标，记 $\tensor{q}{^i_I}(x)$ 为 $V_{\spc}$ 到 $W$ 的同构映射。记 $\tensor{h}{^I_J} = \tensor{\delta}{^I_J} + \tensor{n}{^I} \tensor{n}{_J}$ 为 $V$ 到 $V_{\spc}$ 的投影映射，$\tensor{h}{_I_J} = \tensor{\eta}{_I_K} \tensor{h}{^K_J}$ 即 $V_{\spc}$ 上的诱导黎曼度规，它等于 $\tensor{e}{^a_I} \tensor{e}{^b_J} \tensor{h}{_a_b}$。我们知道 $\tensor{\vol}{_a_b_c} \definedby \tensor{n}{^d} \tensor{\vol}{_d_a_b_c}$ 给出 $\spc$ 上的诱导体元，其标架版本为 $\tensor{\vol}{_I_J_K} \definedby \tensor{n}{^L} \tensor{\vol}{_L_I_J_K}$。通过同构 $\tensor{q}{^i_I}$ 及其逆 $\tensor{q}{^I_i}$ 有 $\tensor{h}{^i_I} \definedby \tensor{q}{^i_J} \tensor{h}{^J_I}$ 及 $W$ 上的度规 $\tensor{h}{_i_j} \definedby \tensor{q}{^I_i} \tensor{q}{^J_j} \tensor{h}{_I_J}$ 与体元 $\tensor{\vol}{_i_j_k} \definedby \tensor{q}{^I_i} \tensor{q}{^J_j} \tensor{q}{^K_k} \tensor{\vol}{_I_J_K}$。
+从 Holst 作用量出发，我们考虑 $3+1$ 分解，其含义与之前 1.1 节中相同，即选择时空的分层 $\phi \colon M \rightarrow \mathbb{R} \times {\mathcal{S}}$，将物理量分解。每点的直和分解 $\mathrm{T}_{x}{M} = \Span\left\{ \tensor{n}{^a}(x) \right\} \oplus \TBx[x]{{\mathcal{S}}}$ 被 $\tensor{e}{^I_a}$ 映为 $V = \Span\left\{ \tensor{n}{^I}(x) \right\} \oplus V_{{\mathcal{S}}}(x)$，其中 $\tensor{n}{^I} = \tensor{e}{^I_a} \tensor{n}{^a}$。注意到法矢场 $\tensor{n}{^a}$ 仅与 $\phi$ 和 $\tensor{g}{_a_b}$ 有关，而同一个 $\tensor{g}{_a_b}$ 对应的 $\tensor{e}{^I_a}$ 还存在 $\SO{3,1}$ 规范自由度，为了方便可以部分固定规范，即固定内部矢量场 $\tensor{n}{^I}$，例如本文中取为第零基矢 $\tensor{\xi}{^I_0}$。则规范群约化为 $\SO{3}$ 。每点的 $V_{{\mathcal{S}}}$ 同构于一固定的三维线性空间 $W$，于是在标架 $\tensor{e}{^a_I}$ 将 $\TB{M}$ 平凡化为 $E=M\times V$ 后，时空的 $3+1$ 分解又将其（局部地）直和分解为 $\left( M \times \mathbb{R} \right) \oplus \left( M \times W \right)$。用 $i,j,k,\cdots$ 作为 $W$ 上的抽象指标，记 $\tensor{q}{^i_I}(x)$ 为 $V_{{\mathcal{S}}}$ 到 $W$ 的同构映射。记 $\tensor{h}{^I_J} = \tensor{\delta}{^I_J} + \tensor{n}{^I} \tensor{n}{_J}$ 为 $V$ 到 $V_{{\mathcal{S}}}$ 的投影映射，$\tensor{h}{_I_J} = \tensor{\eta}{_I_K} \tensor{h}{^K_J}$ 即 $V_{{\mathcal{S}}}$ 上的诱导黎曼度规，它等于 $\tensor{e}{^a_I} \tensor{e}{^b_J} \tensor{h}{_a_b}$。我们知道 $\tensor{\vol}{_a_b_c} \definedby \tensor{n}{^d} \tensor{\vol}{_d_a_b_c}$ 给出 ${\mathcal{S}}$ 上的诱导体元，其标架版本为 $\tensor{\vol}{_I_J_K} \definedby \tensor{n}{^L} \tensor{\vol}{_L_I_J_K}$。通过同构 $\tensor{q}{^i_I}$ 及其逆 $\tensor{q}{^I_i}$ 有 $\tensor{h}{^i_I} \definedby \tensor{q}{^i_J} \tensor{h}{^J_I}$ 及 $W$ 上的度规 $\tensor{h}{_i_j} \definedby \tensor{q}{^I_i} \tensor{q}{^J_j} \tensor{h}{_I_J}$ 与体元 $\tensor{\vol}{_i_j_k} \definedby \tensor{q}{^I_i} \tensor{q}{^J_j} \tensor{q}{^K_k} \tensor{\vol}{_I_J_K}$。
 
 称 $\tensor{e}{^a_i} \definedby \tensor{h}{^a_b} \tensor{e}{^b_I} \tensor{q}{^I_i}$ 为空间标架。接下来分解 $\tensor{\omega}{_a^I^J}$，定义
 \begin{equation}
@@ -109,11 +109,11 @@ Abhay Ashtekar 在1986年给出了广义相对论的一组新的正则变量\cit
 \begin{Property}
 在Ashtekar 变量下，Holst 作用量改写为
 \begin{equation}
-S = \int_{\mathbb{R}} \dd{t} \int_{\spc_t} \dd[3]{x} \left( \tensor{\tilde{P}}{^a_i} \tensor{\dot{A}}{^i_a} - \Had(\tensor{A}{^i_a}, \tensor{\tilde{P}}{^a_i}, N, \tensor{N}{^a}, \tensor{\Lambda}{^i}) \right),
+S = \int_{\mathbb{R}} \dd{t} \int_{{\mathcal{S}}_t} \dd[3]{x} \left( \tensor{\tilde{P}}{^a_i} \tensor{\dot{A}}{^i_a} - \Had(\tensor{A}{^i_a}, \tensor{\tilde{P}}{^a_i}, N, \tensor{N}{^a}, \tensor{\Lambda}{^i}) \right),
 \end{equation}
 哈密顿量
 \begin{equation}
-H = \int_{\spc} \dd[3]{x} \Had := \int_{\spc} \dd[3]{x} \left( \tensor{\Lambda}{^i} \tensor{G}{_i} + \tensor{N}{^a} \tensor{V}{_a} + N C \right),
+H = \int_{{\mathcal{S}}} \dd[3]{x} \Had := \int_{{\mathcal{S}}} \dd[3]{x} \left( \tensor{\Lambda}{^i} \tensor{G}{_i} + \tensor{N}{^a} \tensor{V}{_a} + N C \right),
 \end{equation}
 其中三个约束
 \begin{equation}
@@ -137,7 +137,7 @@ C &= \frac{\gkappa \beta^2}{2\sqrt{\abs{\det h}}} \tensor{\tilde{P}}{^a_i} \tens
 \end{equation}
 定义 smeared 约束
 \begin{equation}
-G(\Lambda) := \int_{\spc} \dd[3]{x} \tensor{\Lambda}{^i} \tensor{G}{_i},\label{eq-smeared_Gauss_constrain}
+G(\Lambda) := \int_{{\mathcal{S}}} \dd[3]{x} \tensor{\Lambda}{^i} \tensor{G}{_i},\label{eq-smeared_Gauss_constrain}
 \end{equation}
 它是局部 $\SO{3}$ 规范变换
 的生成元，即
@@ -148,7 +148,7 @@ G(\Lambda) := \int_{\spc} \dd[3]{x} \tensor{\Lambda}{^i} \tensor{G}{_i},\label{e
 \end{Property}
 $\tensor{V}{_a}$ 和 $C$ 都包含一部分 $\SO{3}$ 规范变换，一种方便的做法是重新定义 smeared 微分同胚约束
 \begin{equation}
-C_{\text{Diff}}(v) := \int_{\spc} \dd[3]{x} \left( \tensor{v}{^a} \tensor{\tilde{P}}{^b_i} \tensor{F}{^i_a_b} - \tensor{v}{^a} \tensor{A}{^i_a} \tensor{G}{_i} \right)
+C_{\text{Diff}}(v) := \int_{{\mathcal{S}}} \dd[3]{x} \left( \tensor{v}{^a} \tensor{\tilde{P}}{^b_i} \tensor{F}{^i_a_b} - \tensor{v}{^a} \tensor{A}{^i_a} \tensor{G}{_i} \right)
 \end{equation}
 代替矢量约束，可以算得
 \begin{Property}
@@ -158,7 +158,7 @@ C_{\text{Diff}}(v) := \int_{\spc} \dd[3]{x} \left( \tensor{v}{^a} \tensor{\tilde
 \end{Property}
 并在 smeared 标量约束中去掉 $\tensor{G}{_i}$ 项，即
 \begin{equation}
-C(f) = \int_{\spc} \dd[3]{x} f(x) \tilde{C}(x) := \frac{\gkappa \beta^2}{2} \int_{\spc} \dd[3]{x} f \frac{\tensor{\tilde{P}}{^a_i} \tensor{\tilde{P}}{^b_j}}{\sqrt{\abs{\det h}}} \left[ \tensor{\vol}{^i^j_k} \tensor{F}{^k_a_b} - \left( 1+ \beta^2 \right) \tensor{K}{^i_a} \wedge \tensor{K}{^j_b} \right],
+C(f) = \int_{{\mathcal{S}}} \dd[3]{x} f(x) \tilde{C}(x) := \frac{\gkappa \beta^2}{2} \int_{{\mathcal{S}}} \dd[3]{x} f \frac{\tensor{\tilde{P}}{^a_i} \tensor{\tilde{P}}{^b_j}}{\sqrt{\abs{\det h}}} \left[ \tensor{\vol}{^i^j_k} \tensor{F}{^k_a_b} - \left( 1+ \beta^2 \right) \tensor{K}{^i_a} \wedge \tensor{K}{^j_b} \right],
 \end{equation}
 常称为哈密顿约束，有如下约束代数
 \begin{Property}

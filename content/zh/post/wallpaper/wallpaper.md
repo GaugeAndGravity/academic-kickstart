@@ -36,7 +36,7 @@ slides: ""
 
 感觉都不是完全满意……有些本身挺好但开一个终端窗口看上去不搭。终端窗口的毛玻璃效果还是想开着的……
 
-<!-- ![1](Screenshot_20210326_025809.png)
+![1](Screenshot_20210326_025809.png)
 ![2](Screenshot_20210326_025839.png)
 ![3](Screenshot_20210326_030650.png)
 ![4](Screenshot_20210326_030749.png)
@@ -49,6 +49,6 @@ slides: ""
 ![11](Screenshot_20210326_031924.png)
 ![12](Screenshot_20210326_032002.png)
 ![13](Screenshot_20210326_032016.png)
-![14](Screenshot_20210326_032033.png) -->
+![14](Screenshot_20210326_032033.png)
 
-{{< gallery album="<ALBUM FOLDER>" >}}
+<!-- {{< gallery album="<ALBUM FOLDER>" >}} -->

@@ -50,5 +50,3 @@ slides: ""
 ![12](Screenshot_20210326_032002.png)
 ![13](Screenshot_20210326_032016.png)
 ![14](Screenshot_20210326_032033.png)
-
-<!-- {{< gallery album="<ALBUM FOLDER>" >}} -->

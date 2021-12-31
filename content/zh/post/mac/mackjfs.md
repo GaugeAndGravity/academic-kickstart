@@ -44,5 +44,5 @@ slides: ""
 
 ### 1.打开自动操作应用
 
-<!-- ![打开自动操作应用](iShot2021-12-31-1.png) -->
-{{< figure src="iShot2021-12-31-1.png" caption="A caption" numbered="true" >}}
+<!-- ![打开自动操作应用](img/iShot2021-12-31-1.png) -->
+{{< figure src="img/iShot2021-12-31-1.png" caption="A caption" numbered="true" >}}
